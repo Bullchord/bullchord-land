@@ -1,0 +1,34 @@
+.bull3_partner-container {
+    background: #000000;
+    overflow-y: hidden;
+}
+
+.bull3_partner-container h1 {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+
+.bull3_partner-container h1 {
+        height: 180px;
+        /* background-image: url('../../assets/liquid.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; */
+        margin-bottom: 5rem;
+    
+}
+
+
+.bull3_partner-roll {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.gecko img {
+    width: 150px;
+}

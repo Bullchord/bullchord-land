@@ -1,0 +1,275 @@
+.bull3_token_head {
+    padding-top: 10rem;
+    margin: 1rem;
+}
+   
+ 
+   
+   .bull3__chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #000000;
+    height: 700px;
+}
+
+.bull3_vid-banner {
+    margin-top: -30rem;
+    position: absolute ;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.bull3_vid-banner .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bull3_vid-banner h1 {
+    margin-top: 15rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    font-size: 200px;
+    text-align: center ;
+    color:#000000;
+    line-height: 100vh;
+    mix-blend-mode: screen;
+}
+
+
+
+/* .bull3_token_head h1 {
+    color: #000000;
+    margin-top: 10rem;
+    font-size: 200px;
+    text-align: center;
+} */
+
+/* .bull3_token_head p {
+    color: #000000;
+    width: 600px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+} */
+
+.bull3__piechart {
+    margin-top: 12rem;
+    font-size: 20px;
+    font-family: var(--font-family);
+    /* box-shadow: 2px 1px 2px grey; */
+    /* transition: box-shadow .2s ease-in; */
+}
+
+
+.background__shape {
+    /* background: #0f0f0f;
+    width: 100%;
+    height: 600px;
+    -ms-transform: skewY(-5deg);
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg); */
+    position: absolute;
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='700' preserveAspectRatio='none' viewBox='0 0 1400 700'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1072%26quot%3b)' fill='none'%3e%3cpath d='M31 700L731 0L927.5 0L227.5 700z' fill='url(%23SvgjsLinearGradient1073)'%3e%3c/path%3e%3cpath d='M543 700L1243 0L1640.5 0L940.5 700z' fill='url(%23SvgjsLinearGradient1073)'%3e%3c/path%3e%3cpath d='M1347 700L647 0L266 0L966 700z' fill='url(%23SvgjsLinearGradient1074)'%3e%3c/path%3e%3cpath d='M876 700L176 0L-178 0L522 700z' fill='url(%23SvgjsLinearGradient1074)'%3e%3c/path%3e%3cpath d='M956.5113530514068 700L1400 256.51135305140684L1400 700z' fill='url(%23SvgjsLinearGradient1073)'%3e%3c/path%3e%3cpath d='M0 700L443.48864694859316 700L 0 256.51135305140684z' fill='url(%23SvgjsLinearGradient1074)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1072'%3e%3crect width='1400' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1073'%3e%3cstop stop-color='rgba(20%2c 255%2c 165%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(20%2c 255%2c 165%2c 1)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1074'%3e%3cstop stop-color='rgba(20%2c 255%2c 165%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(20%2c 255%2c 165%2c 1)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
+    background-size: cover;
+
+}
+
+.bull3__content {
+    color: white;
+    position: absolute;
+    display: flex;
+
+
+}
+
+/* .bull3__content h1 {
+    font-size: 56px;
+    font-weight: 600;
+    text-align: center !important;
+    padding-bottom: 15px;
+} */
+
+.bull3__content h2 {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center !important;
+    font-family: var(--font-family);
+    color: #fff;
+}
+
+.bull3_metric {
+    /* margin-top: 100px; */
+    margin-right: 50px;
+    font-family: var(--font-family);
+    font-family: poppins;
+    line-height: 30px;
+}
+
+.bull3_metric p {
+    list-style-type: square;
+    font-size: 30px;
+    font-family: var(--font-family);
+}
+
+.bull3__pre {
+    color: #b7ff9a;
+}
+
+.bull3__eco {
+    color: #14A5AD;
+}
+
+.bull3__lock {
+    color: #724BB1;
+}
+
+.bull3__team {
+    color: #97ffef;
+}
+
+.bull3__market {
+    color: #00FF19;
+}
+
+.bull3__adv {
+    color: #EBC1FF;
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .bull3_vid-banner h1 {
+        margin-top: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        font-size: 180px;
+        text-align: center ;
+        color:#000000;
+        line-height: 100vh;
+        mix-blend-mode: screen;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .bull3_vid-banner h1 {
+        margin-top: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        font-size: 120px;
+        text-align: center ;
+        color:#000000;
+        line-height: 100vh;
+        mix-blend-mode: screen;
+    }
+       
+    .bull3__content {
+        color: white;
+        /* position: absolute; */
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+.bull3_vid-banner h1 {
+    margin-top: 10rem;
+    font-size: 100px;
+ 
+}
+
+.bull3_vid-banner .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 5rem;
+}
+
+.bull3_vid-banner {
+    margin-top: -25rem;
+    position: absolute ;
+    width: 100%;
+    height: 100vh;
+ 
+
+}
+
+.bull3__chart {
+    background: #000000;
+    height: 1000px;
+
+}
+}
+
+@media screen and (max-width:730px) {
+    /* .background__shape {
+        position: absolute;
+        background-size: cover;
+
+    } */
+
+    .bull3__content {
+        color: white;
+        position: absolute;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .bull3_metric {
+        margin-bottom: -5rem;
+    }
+
+    .bull3_metric p {
+        font-size: 20px;
+        /* display: flex; */
+        text-align: center;
+        /* margin-left: 7rem; */
+    }
+
+    .bull3__chart {
+        margin-top: 25rem;
+        margin-bottom: 25rem;
+    }
+
+    .bull3__piechart {
+        font-size: 10px;
+    }
+}

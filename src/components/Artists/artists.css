@@ -1,0 +1,87 @@
+.carousel {
+    width: 100%;
+    height: 700px;
+    background: #000000;
+    /* background-image: url('../../assets//liquiddark.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: rgb(163, 165, 175);
+  }
+  .carousel-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .carousel-desc-card {
+    height: 600px;
+    margin-right: 40px;
+    text-align: center;
+    padding: 15px;
+    width: 30%;
+    border-radius: 15px;
+    border: 1px solid rgba(151, 71, 255, 0.4611);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-desc-card p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+  }
+  .carousel-card {
+    width: 75%;
+  }
+  
+  .card-bottom p {
+    line-height: 20%;
+  }
+
+ 
+
+  @media screen and (max-width: 1050px) {
+    
+    .carousel-desc-card {
+        height: 100px;
+        /* margin-right: 1px; */
+        text-align: center;
+        padding: 15px;
+        width: 90%;
+        max-width: 900px;
+        border-radius: 15px;
+        border: 1px solid rgba(151, 71, 255, 0.4611);
+        margin-bottom: 2rem;
+        /* display: block;
+        margin: 0 auto; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+      }
+      .carousel-desc-card p {
+        text-align: center;
+      }
+    .carousel-card {
+        width: 600%;
+      }
+
+      .carousel-container {
+        padding: 20px;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .carousel {
+        width: 100%;
+        height: 900px;
+        background: #000;
+        color: rgb(163, 165, 175);
+      }
+  }

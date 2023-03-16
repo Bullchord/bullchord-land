@@ -1,0 +1,125 @@
+
+.bull3_download-bg {
+    /* background-image: url('../../assets/liquid.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: #000000;
+    padding: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+
+.bull3_download-whitebg {
+    max-width: 950px;
+width: 100%;
+height: 400px;
+background: #FFFFFF;
+border-radius: 12px;
+display: block;
+margin: 0 auto;
+}
+
+.bull3_download-inner-roll {
+    display: flex;
+    color: #000000;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.bull3_download-inner2 img {
+    width: 220px;
+}
+
+.bull3_download-inner h1 {
+    /* max-width: 300px; */
+    color: #000000;
+}
+
+.bull3_download-inner p {
+    max-width: 400px;
+    color: #000000;
+}
+
+.bull3_download-inner .google_store {
+    margin-right: 1rem;
+}
+
+/* .bull3_download-inner {
+    padding: 3rem;
+} */
+
+@media screen and (max-width: 700px) {
+    .bull3_download-inner-roll {
+        display: flex;
+        flex-direction: column-reverse;
+        color: #000000;
+        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+    }
+
+    .bull3_download-whitebg {
+        text-align: center;
+        height: 650px;
+        background: #FFFFFF;
+        border-radius: 12px;
+        display: block;
+        margin: 0 auto;
+        }
+}
+
+@media screen and (max-width: 600px) {
+    .bull3_download-inner-roll {
+        display: flex;
+        flex-direction: column-reverse;
+        color: #000000;
+        justify-content: space-around;
+        padding: 3rem;
+    }
+
+    .bull3_download-whitebg {
+        /* width: 350px; */
+        height: 700px;
+        background: #FFFFFF;
+        border-radius: 12px;
+        display: block;
+        margin: 0 auto;
+        }
+
+        .bull3_download-inner h1 {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .bull3_download-inner p {
+            text-align: center;
+        }
+
+        .bull3_download-inner img {
+            margin: 5px;
+            width: 180px;
+            /* display: block;
+            margin: 0 auto; */
+        }
+}
+
+@media screen and (max-width: 450px) {
+    .bull3_download-inner img {
+        margin: 5px;
+        width: 100px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+
+    .bull3_download-whitebg {
+        /* width: 350px; */
+        height: 750px;
+        background: #FFFFFF;
+        border-radius: 12px;
+        display: block;
+        margin: 0 auto;
+        }
+}

@@ -1,0 +1,154 @@
+.hero-main {
+    margin-bottom: 100px;
+    color: #000;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .hero-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    background-color: #14a5ad;
+  }
+  
+  .quarters-a {
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 20%;
+    color: #000;
+
+  }
+  .quarters-timeline {
+    display: flex;
+    align-items: center;
+  }
+  .quarters-timeline img {
+    margin-right: 20px;
+  }
+  
+  .quarters-2 {
+    margin-left: 51%;
+    margin-top: -150px;
+    color: #000;
+
+  }
+  .main-designs img {
+    position: relative;
+    left: 342px;
+    right: -33px;
+    top: -83px;
+  }
+  
+  .quarters-c {
+    width: 70%;
+    margin-top: -180px;
+    margin-left: 14%;
+  }
+  .quarters-d {
+    margin-left: 59%;
+    margin-top: -173px;
+  }
+  
+  .main-designs-2 img {
+    position: relative;
+    left: 221px;
+    top: -109px;
+  }
+  .main-designs-3 img {
+    position: relative;
+    left: 233px;
+    top: -99px;
+  }
+
+  .timeline-text p {
+ color: #000;
+}
+  .timeline-text .q1 {
+    color: #14a5ad;
+  }
+
+  .hero-main {
+    padding-top: 30rem;
+  }
+
+  .hero-main h1 {
+    /* padding-top: 5rem; */
+    color: #000;
+    text-align: center;
+    font-size: 150px;
+    /* height: 300px; */
+    /* background: #000; */
+  }
+
+  .bull3_vid-banner-doc {
+    margin-top: -50rem;
+    position: absolute ;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.bull3_vid-banner-doc .video {
+    margin-top: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bull3_vid-banner-doc h1 {
+    margin-top: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    font-size: 200px;
+    text-align: center ;
+    color:#000000;
+    line-height: 100vh;
+    mix-blend-mode: screen;
+}
+
+
+  .bull3_roadmap-down {
+    background-image: url('../../assets/roadmapdown.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .bull3_roadmap-down p {
+    /* width: 400px; */
+    padding: 5rem;
+    width: 400px;
+  }
+
+
+@media screen and (max-width: 900px) {
+    .bull3_vid-banner-doc h1 {
+        font-size: 150px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bull3_vid-banner-doc h1 {
+        font-size: 100px;
+    }
+}
