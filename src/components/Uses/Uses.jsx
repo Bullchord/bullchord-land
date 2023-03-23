@@ -51,7 +51,6 @@ const Uses = () => {
         <div className="img_inapp">
           <img src={Inapp} alt="inapp" />
         </div>
-        {/* <img className="hhh" src={Stake} alt="stake" /> */}
       </div>
     </div>
   )

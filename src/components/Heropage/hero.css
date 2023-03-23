@@ -73,7 +73,7 @@
   font-family: "Poppins";
   font-size: 16px;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 28px;
   letter-spacing: 0.005em;
   text-align: center;
   color: #ffffffff;
@@ -258,7 +258,7 @@
 
   .bull3__header-content p {
     width: 100%;
-    font-family: Poppins;
+    font-family: "Verdana";
     font-size: 30px;
     font-weight: 500;
     line-height: 35px;
@@ -319,7 +319,7 @@
     width: 100%;
     border-radius: nullpx;
     font-family: "Poppins";
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     line-height: 50px;
     letter-spacing: 0em;
@@ -376,7 +376,7 @@
   .bull3__header-content h1 {
     width: 100%;
     font-family: "Poppins";
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
     letter-spacing: 0em;
     text-align: center;
