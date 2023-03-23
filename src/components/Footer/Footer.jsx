@@ -1,18 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './footer.css'
-import logo3 from '../../assets/logowhite.png';
+import logo3 from '../../assets/logoblack.png'
 // import BullInput from '../../BullInput'
-import telegram from '../../assets/telegram.png';
-import medium from '../../assets/medium.svg';
-// import youtube from '../../Assets/images/youtube.svg'
-import twitter from '../../assets/twitter.svg';
-import discord from '../../assets/discord.svg';
+import telegram from '../../assets/ftele.png'
+import medium from '../../assets/fmedium.svg'
+import twitter from '../../assets/ftwitter.svg'
+import discord from '../../assets/Fdiscord.svg'
 
 const Footer = () => {
+  const [emailList, setEmaillist] = useState('')
+  const addToEmail = () => {
+    console.log(emailList)
+    setEmaillist('')
+  }
   return (
     <>
-
-    <div className="footer">
+      <div className="footer">
         <div className="footer-container">
           <div className="footer-logo">
             <img src={logo3} alt="" />
@@ -20,39 +24,56 @@ const Footer = () => {
               Bullchord is a dedicated decentralized music NFT and metaverse
               ecosystem. We aim to change the sphere of music.
             </p>
-            <div className="footer-input">
-              <h2>Stay up to date</h2>
-              {/* <BullInput /> */}
-            </div>
           </div>
           <div className="footer-menu">
             <div className="footer-menu-top">
               <div className="right-menu">
                 <h3>MENU</h3>
-                <p>TOKEN</p>
-                <p>ROADMAP</p>
-                <p>ARTISTE</p>
+                <Link to="/tokenomics">TOKEN</Link>
+                <Link to={'/docs'}>ROADMAP</Link>
+                <Link to={'./artisteform'}>ARTISTE</Link>
               </div>
               <div className="left-menu">
                 <h3>COMPANY</h3>
-                <p>WHITEPAPER</p>
-                <p>TEAM</p>
+                <Link>WHITEPAPER</Link>
+                <Link to={'./team'}>TEAM</Link>
               </div>
             </div>
             <div className="footer-menu-down">
-              <h2>OUR COMMUNITY</h2>
+              <h3>OUR COMMUNITY</h3>
               <div className="social-networks">
-                <img src={telegram} alt="" />
-                <img src={medium} alt="" />
-                <img src={twitter} alt="" />
-                {/* <img src={youtube} alt="" /> */}
-                <img src={discord} alt="" />
+                <a href="#">
+                  <img src={telegram} alt="" />
+                </a>
+                <a
+                  href="https://medium.com/@bullchord"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={medium} alt="" />
+                </a>
+                <a
+                  href="https://twitter.com/bullchord"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={twitter} alt="" />
+                </a>
+                <a
+                  href="https://discord.gg/bPzTeDke2h"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={discord} alt="" />
+                </a>
               </div>
             </div>
           </div>
         </div>
+        <p className="copyright">
+          Copyright © 2023 Your Company Name. All rights reserved.
+        </p>
       </div>
-    
     </>
   )
 }

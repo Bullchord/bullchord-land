@@ -14,7 +14,7 @@ const Home = () => {
       <Listen />
       <Uses />
       <Song />
-      <Carousel/>
+      {/* <Carousel/> */}
       <Partner />
       <Download/>
     </div>
