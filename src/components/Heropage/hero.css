@@ -270,7 +270,7 @@
 
 @media screen and (max-width: 770px) {
   .bull3__header {
-    height: 450px;
+    height: 500px;
   }
   .bull3__header-content h1 {
     padding-top: 2rem;
@@ -319,9 +319,9 @@
     width: 100%;
     border-radius: nullpx;
     font-family: "Poppins";
-    font-size: 33px;
+    font-size: 50px;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 50px;
     letter-spacing: 0em;
     text-align: center;
   }
@@ -376,18 +376,18 @@
   .bull3__header-content h1 {
     width: 100%;
     font-family: "Poppins";
-    font-size: 33px;
+    font-size: 50px;
     font-weight: 600;
     letter-spacing: 0em;
     text-align: center;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 50px;
   }
 
   .bull3__header-content p {
     font-family: "Poppins";
     color: #f4f4f4;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.005em;

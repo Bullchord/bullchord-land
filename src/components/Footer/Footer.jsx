@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="left-menu">
                 <h3>COMPANY</h3>
                 <Link>WHITEPAPER</Link>
-                <Link to={'./team'}>TEAM</Link>
+                {/* <Link to={'./team'}>TEAM</Link> */}
               </div>
             </div>
             <div className="footer-menu-down">
@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="copyright">
-          Copyright © 2023 Your Company Name. All rights reserved.
+          Copyright © 2023 Bullchord. All rights reserved.
         </p>
       </div>
     </>
