@@ -6,16 +6,13 @@ import './partner.css'
 const Partner = () => {
   return (
     <div className="bull3_partner-container">
-      <h1>Collaboration and Partner</h1>
-      <div className="bull3_partner-roll">
-        <div className="binance">
-          <img src={Binance} alt="binance" />
-        </div>
-        <div className="gecko">
-          <img src={Gecko} alt="gecko" />
+      <div className="container-1">
+        <div className="bull3_partner-roll">
+          <p>Binance</p>
+          <p>Pancakeswap</p>
+          <p>Coingecko</p>
         </div>
       </div>
-      <hr />
     </div>
   )
 }

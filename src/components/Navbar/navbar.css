@@ -28,7 +28,7 @@
 }
 
 .bull3__navbar-links_logo img {
-  width: 200px;
+  width: 290px;
 }
 
 .bull3__navbar-links_container {
@@ -46,8 +46,16 @@
   /* color: #000000; */
   text-decoration: none;
   font-weight: 700;
+  color: #cdcdcd;
+  background: #6c00bf8d;
+  /* border: 1px solid #6c00bf8d; */
+  font-size: 16px;
+  font-family: "Verdana";
 }
-
+.bull3__navbar-sign a:hover {
+  border: 1px solid #6c00bffb;
+  transition: 0.5s;
+}
 .bull3__navbar-links_container p,
 .bull3__navbar-sign,
 .bull3__navbar-menu_container p {

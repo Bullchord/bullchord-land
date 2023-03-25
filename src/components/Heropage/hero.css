@@ -9,7 +9,7 @@
   background-size: cover;
   height: 600px;
   width: 100%;
-  padding-top: 5rem;
+  padding-top: 11rem;
 }
 
 .bull3_video_home Video {
@@ -42,7 +42,7 @@
   margin-left: 380px;
   font-size: 30px;
   color: rgb(198, 198, 198);
-  padding-top: 6rem;
+  padding-top: 7.5rem;
   font-family: "Machina";
   text-align: left;
 }
@@ -53,10 +53,10 @@
 
 .bull3__header-content h1 {
   width: 100%;
-  max-width: 800px;
+  /* max-width: 800px; */
   border-radius: nullpx;
   font-family: "Poppins";
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 600;
   line-height: 84px;
   letter-spacing: 0em;
@@ -71,7 +71,7 @@
 
 .bull3__header-content p {
   font-family: "Poppins";
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 28px;
   letter-spacing: 0.005em;
@@ -96,15 +96,15 @@
 
 .bull3__header-content_btn button {
   padding: 20px 30px;
-  font-size: 20px;
-  width: 200px;
+  font-size: 24px;
+  width: 350px;
   line-height: 25px;
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
   color: #22e1eb;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   outline: none;
   background: #6d00bf;
   margin: 1rem;
@@ -356,7 +356,7 @@
     margin-left: 10px;
     font-size: 19px;
     color: rgb(198, 198, 198);
-    padding-top: 3rem;
+    padding-top: 4rem;
     font-family: "Machina";
   }
   .bull3__header h1 {

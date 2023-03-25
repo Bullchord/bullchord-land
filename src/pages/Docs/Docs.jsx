@@ -28,9 +28,10 @@ const Docs = () => {
           <div className="quarters-timeline">
             <img src={qRule} alt="quarters rule" />
             <div className="timeline-text">
-              <p className="q1">Bullchord Website</p>
-              <p className="q1">Whitepaper Publishment</p>
-              <p className="q1">Launch Social Media </p>
+              <p className="q1">Bullchord Landing page Website</p>
+              <p className="q1">Process & technical documentation</p>
+              <p className="q1">Market research & structure </p>
+              <p className="q1">Artists whitelist</p>
             </div>
           </div>
         </div>
@@ -39,43 +40,44 @@ const Docs = () => {
         </div>
         <div className="quarters-2">
           <h2>Q2 -2023</h2>
+
           <div className="quarters-timeline">
             <div className="timeline-text">
-              <p>Bullchord Website</p>
-              <p>Whitepaper Publishment</p>
-              <p>Launch Social Media </p>
+              <p>Launchpad</p>
+              <p>Dex listing</p>
+              <p>Liquidity lock</p>
+              <p>Listing on Coinmarketscap & Coingecko</p>
             </div>
             <img src={qRule} alt="quarters rule" />
           </div>
         </div>
-
         <div className="main-designs-2">
           <img src={quarters2} alt="" />
         </div>
-
         <div className="quarters-c">
           <h2>Q3 -2023</h2>
           <div className="quarters-timeline">
             <img src={qRule} alt="quarters rule" />
+
             <div className="timeline-text">
-              <p>Bullchord Website</p>
-              <p>Whitepaper Publishment</p>
-              <p>Launch Social Media </p>
+              <p>Marketplace Launch</p>
+              <p>Mobile apps beta release ( ANDROID)</p>
+              <p>Massive artist onboarding</p>
+              <p>Celebrity Anni. feature</p>
             </div>
           </div>
         </div>
-
         <div className="main-designs-3">
           <img src={quarters3} alt="" />
         </div>
-
         <div className="quarters-d">
           <h2>Q4 -2023</h2>
           <div className="quarters-timeline">
             <div className="timeline-text">
-              <p>Bullchord Website</p>
-              <p>Whitepaper Publishment</p>
-              <p>Launch Social Media </p>
+              <p>Music Gems.</p>
+              <p>Decentralized Chord Reward(DCR) </p>
+              <p> Bullchord music explorer.</p>
+              <p>Listing on CEX</p>
             </div>
             <img src={qRule} alt="quarters rule" />
           </div>

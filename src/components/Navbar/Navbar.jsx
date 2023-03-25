@@ -16,7 +16,7 @@ const Menu = () => (
       {' '}
       <a href="/docs">Roadmap</a>{' '}
     </p>
-    {/* <p className='linkss'> <a href="/team">Team</a> </p>  */}
+    <p className='linkss'> <a href="/team">Team</a> </p> 
   </>
 )
 
@@ -35,12 +35,15 @@ const Navbar = () => {
         </div>
       </div>
       <div className="bull3__navbar-sign">
-        <button className="btn btn-1" type="button">
-          {' '}
-          <a href="http://localhost:3000/" target="_blank" rel="noreferrer">
-            Join Waitlist
-          </a>
-        </button>
+        <a
+          href="https://discord.gg/bPzTeDke2h"
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-1"
+          type="button"
+        >
+          Join Discord
+        </a>
       </div>
       <div className="bull3__navbar-menu">
         {toggleMenu ? (

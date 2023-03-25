@@ -31,7 +31,7 @@ const Song = () => {
           <div className="bull3_song-colone">
             <div className="bull3_song-inner">
               <div className="listner">
-                <h3>For Listener </h3>
+                <h2>For Listener </h2>
                 <p>The DCR rewards you as you listen to music.</p>
               </div>
               <div className="headset">
@@ -40,7 +40,7 @@ const Song = () => {
             </div>
             <div className="bull3_song-inner2">
               <div className="artist">
-                <h3>Artist</h3>
+                <h2>Artist</h2>
                 <p>Mint songs, sell songs, and enjoy your royalty for life. </p>
               </div>
               <div className="disk slide-left">
@@ -74,7 +74,7 @@ const Song = () => {
           </div>
         </div>
         <div className="bull3_genre">
-          <h3>Adding Greater Value To Every Genre Of Music.</h3>
+          <h2>Adding Greater Value To Every Genre Of Music.</h2>
           <p>
             Earn tokens when music is streamed and take part in the consensus
             reward voting system.

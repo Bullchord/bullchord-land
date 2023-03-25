@@ -1,32 +1,69 @@
 .bull3_partner-container {
-  background: #000000;
-  overflow-y: hidden;
+  background: #000;
+  padding-top: 30px;
 }
 
-.bull3_partner-container h1 {
-  text-align: center;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  color: #fff;
+.container-1 {
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 0;
 }
 
+.bull3_partner-roll p {
+  font-size: 30px;
+  font-family: "Machina";
+  color: #eceaea;
+  font-weight: 600;
+  opacity: 0.5;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.container-1 p:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
 .bull3_partner-roll {
   display: flex;
+  align-items: center;
   justify-content: center;
-  justify-content: space-around;
-}
-.bull3_partner-container h1 {
-  font-size: 25px;
-  font-family: "Machina", serif;
-  margin-bottom: 2rem;
+  justify-content: space-between;
 }
 
 .gecko img {
   width: 100px;
 }
 .binance {
+  display: flex;
   width: 50px;
   opacity: 0.4;
+}
+
+@media screen and (max-width: 770px) {
+  .container-1 {
+    /* background: #000; */
+  }
+}
+@media screen and (max-width: 590px) {
+  .container-1 {
+    /* background: green; */
+  }
+}
+@media screen and (max-width: 490px) {
+  
+  .bull3_partner-roll {
+    gap: 10px;
+
+  }
+  
+  .container-1 p {
+    font-size: 20px;
+    font-family: "Machina";
+    color: #eceaea;
+    font-weight: 600;
+  }
+  .bull3_partner-roll p:hover {
+    opacity: 1;
+  }
 }

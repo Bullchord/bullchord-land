@@ -11,10 +11,18 @@ import './team.css'
 
 const teamData = [
   { id: 1, founderName: 'Michael Balogun', pos: 'CEO', img: founder },
-  { id: 2, founderName: 'Abusomwan Santos', pos: 'CTO', img: founder },
-  { id: 3, founderName: 'Francis Oche', pos: 'CII', img: founder },
-  { id: 4, founderName: 'Francis Oche', pos: 'COO', img: founder },
-  { id: 5, founderName: 'Francis Oche', pos: 'NTA', img: founder },
+  {
+    id: 2,
+    founderName: 'Abusomwan Santos',
+    pos: 'Web3 Developer',
+    img: founder,
+  },
+  { id: 3, founderName: 'Alexander Jessica', pos: 'HR', img: founder },
+  { id: 4, founderName: 'Seth Daniel', pos: 'Marketer', img: founder },
+  { id: 5, founderName: 'Zulay Pulido ', pos: 'Designer', img: founder },
+  { id: 5, founderName: 'Francis Oche ', pos: 'Marketer', img: founder },
+  { id: 5, founderName: 'Caner', pos: 'Marketer', img: founder },
+  { id: 5, founderName: 'Colin Power', pos: 'Advisor', img: founder },
 ]
 
 const Team = () => {

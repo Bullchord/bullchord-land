@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="left-menu">
                 <h3>COMPANY</h3>
                 <Link>WHITEPAPER</Link>
-                {/* <Link to={'./team'}>TEAM</Link> */}
+                <Link to={'./team'}>TEAM</Link>
               </div>
             </div>
             <div className="footer-menu-down">
