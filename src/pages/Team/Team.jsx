@@ -1,5 +1,4 @@
 import React from 'react'
-import Swiper from 'swiper'
 // import Header from '../Header'
 import founder from '../../assets/mich.png'
 import twitter from '../../assets/twitter.svg'
@@ -10,11 +9,21 @@ import 'react-html5video/dist/styles.css'
 import Colorful from '../../assets/colorful.mp4'
 import './team.css'
 
+import { Swiper, SwiperSlide } from 'swiper'
+
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/effect-cube'
+import 'swiper/css/pagination'
+
+// import required modules
+import { EffectCube, Pagination } from 'swiper'
+
 const teamData = [
   {
     id: 1,
     founderName: 'Michael Balogun',
-    pos: 'cofounder & CEO',
+    pos: 'Web/Blockchain dev',
     img: founder,
     tweet: 'https://twitter.com/simplymikes',
     linked: 'https://www.linkedin.com/in/michael-b-319a13138/',
@@ -22,7 +31,7 @@ const teamData = [
   {
     id: 2,
     founderName: 'Abusomwan Santos',
-    pos: 'cofounder & Web3 Developer',
+    pos: 'Web/Blockchain dev',
     img: founder,
     tweet: 'https://twitter.com/kingjul1en',
     linked: 'https://www.linkedin.com/in/abusomwan-santos/',
@@ -31,7 +40,7 @@ const teamData = [
   {
     id: 5,
     founderName: 'Francis Oche ',
-    pos: 'cofounder & Marketer',
+    pos: 'Social Marketer',
     img: founder,
     tweet: 'https://twitter.com/NGPreacher',
     linked: 'https://www.linkedin.com/in/francis-samuel-oche-315926269',
@@ -46,17 +55,22 @@ const teamData = [
   {
     id: 4,
     founderName: 'Seth Daniel',
-    pos: 'Marketer',
+    pos: 'Web3 Marketer',
     img: founder,
     tweet: 'https://twitter.com/Sethdannyyak',
     linked: 'https://www.linkedin.com/in/seth-dani-yakubu-345705251',
   },
-  { id: 5, founderName: 'Zulay Pulido ', pos: 'Designer', img: founder },
-  { id: 5, founderName: 'Caner', pos: 'Marketer', img: founder },
+  {
+    id: 5,
+    founderName: 'Zulay Pulido ',
+    pos: 'Designer & Illustrator',
+    img: founder,
+  },
+  { id: 5, founderName: 'Caner', pos: 'Community Manager', img: founder },
   {
     id: 5,
     founderName: 'Colin Power',
-    pos: 'Advisor',
+    pos: 'Crypto Economist & Advisor',
     img: founder,
     tweet: 'https://twitter.com/collin_code',
     linked: 'https://twitter.com/collin_code',
@@ -111,28 +125,32 @@ const Team = () => {
         <h1> Empowering Artists Like Never Before</h1>
       </div>
 
-      {/* <div className="swiper sample-slider">
-        <div className="swiper-wrapper">
-          <div className="swiper-slide">
-            <p>sample 1</p>
-            <img src={twitter} />
-          </div>
-          <div className="swiper-slide">
-            <img src={linkedin} />
-          </div>
-          <div className="swiper-slide">
-            <p>sample 3</p>
-            <img src={twitter} />
-          </div>
-          <div className="swiper-slide">
-            <p>sample 4</p>
-            <img src={linkedin} />
-          </div>
-        </div>
-        <div className="swiper-pagination"></div>
-        <div className="swiper-button-prev"></div>
-        <div className="swiper-button-next"></div>
-      </div> */}
+      {/* <Swiper
+        effect={'cube'}
+        grabCursor={true}
+        cubeEffect={{
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        }}
+        pagination={true}
+        modules={[EffectCube, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        </SwiperSlide>
+      </Swiper> */}
     </>
   )
 }
