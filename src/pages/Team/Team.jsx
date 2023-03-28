@@ -9,15 +9,15 @@ import 'react-html5video/dist/styles.css'
 import Colorful from '../../assets/colorful.mp4'
 import './team.css'
 
-import { Swiper, SwiperSlide } from 'swiper'
+// import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/effect-cube'
-import 'swiper/css/pagination'
+// import 'swiper/css'
+// import 'swiper/css/effect-cube'
+// import 'swiper/css/pagination'
 
 // import required modules
-import { EffectCube, Pagination } from 'swiper'
+// import { EffectCube, Pagination } from 'swiper'
 
 const teamData = [
   {
@@ -78,19 +78,19 @@ const teamData = [
 ]
 
 const Team = () => {
-  const swiper = new Swiper('.sample-slider', {
-    effect: 'cards', //make slider card
-    grabCursor: true, //grab cursor
-    pagination: {
-      //pagination(dots)
-      el: '.swiper-pagination',
-    },
-    navigation: {
-      //navigation(arrows)
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  })
+  // const swiper = new Swiper('.sample-slider', {
+  //   effect: 'cards', //make slider card
+  //   grabCursor: true, //grab cursor
+  //   pagination: {
+  //     //pagination(dots)
+  //     el: '.swiper-pagination',
+  //   },
+  //   navigation: {
+  //     //navigation(arrows)
+  //     nextEl: '.swiper-button-next',
+  //     prevEl: '.swiper-button-prev',
+  //   },
+  // })
   return (
     <>
       <div className="bull3_team-container">
