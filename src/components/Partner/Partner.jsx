@@ -9,8 +9,9 @@ const Partner = () => {
       <div className="container-1">
         <div className="bull3_partner-roll">
           <p>Binance</p>
-          <p>Pancakeswap</p>
-          <p>Coingecko</p>
+          <p>OppenZeppelin</p>
+          <p>Unity</p>
+          <p>IPFS</p>
         </div>
       </div>
     </div>

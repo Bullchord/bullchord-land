@@ -23,7 +23,9 @@
 
 .bull3_col-two {
   text-align: start;
-  width: 60%;
+  margin-left: 50px;
+  /* width: 90%; */
+  /* margin-top: 80px; */
 }
 
 .bull3_col-two p {
@@ -34,7 +36,7 @@
   letter-spacing: 0.045em;
   text-align: left;
   padding: 10px;
-  width: 90%;
+  width: 100%;
   /* margin-top:100px ; */
   margin-bottom: 40px;
   color: #c8c8c8;
@@ -107,10 +109,10 @@
   animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
-/* call to action button */
 .cta {
   text-decoration: none;
-  color: #c8c8c8;
+  color: #fcfcfc;
+  font-family: "Machina", sans-serif;
 }
 
 .cta {
@@ -136,7 +138,7 @@
   font-size: 16px;
   line-height: 18px;
   font-weight: 900;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   vertical-align: middle;
 }
@@ -147,7 +149,6 @@
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  /* stroke: #8e0fef; */
   stroke: #d3b5ea;
   stroke-width: 2;
   transform: translateX(-5px);
@@ -161,11 +162,6 @@
 .cta:active {
   transform: scale(0.96);
 }
-/* 
-  svg
-        transform: translateX(0)
-    &:active
-      transform: scale(.96) */
 
 @-webkit-keyframes heartbeat {
   from {
@@ -273,7 +269,6 @@
 
   .bull3_listen-container {
     border-radius: 0px;
-    background: #fff;
     padding: 1rem 2rem;
   }
 
@@ -282,14 +277,14 @@
   }
 
   .bull3_listen-container h1 {
-    text-align: center;
+    text-align: left;
     font-family: "Neue Machina";
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
     line-height: 131.1%;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #f5f3f3;
   }
 
   .bull3_col-two p {
@@ -298,14 +293,14 @@
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0.045em;
-    text-align: right;
-    color: #000000;
+    text-align: left;
+    color: #ffffffe4
   }
 
   .bull3_listen-container {
     height: 500px;
     border-radius: 0px;
-    background: #fff;
+    background: #101010;
     padding: 3rem 5rem;
   }
 }
@@ -317,7 +312,7 @@
 
   .bull3_listen-container {
     border-radius: 0px;
-    background: #fff;
+    background: #100f0f;
   }
 
   .bull3_col-one .speaker {
@@ -329,13 +324,16 @@
     font-size: 30px;
     line-height: 131.1%;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #fffdfdeb;
+    text-align: left;
   }
   .bull3_col-two {
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .bull3_col-two p {
@@ -344,14 +342,13 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.045em;
-    text-align: right;
-    color: #000000;
+    text-align: left;
+    color: #fffdfdeb;
   }
 
   .bull3_listen-container {
-    height: 400px;
-    border-radius: 0px;
-    background: #fff;
+    height: 450px;
+    /* background: #fff; */
     padding: 2rem;
   }
 }

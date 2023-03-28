@@ -40,23 +40,7 @@
   opacity: 0.4;
 }
 
-@media screen and (max-width: 770px) {
-  .container-1 {
-    /* background: #000; */
-  }
-}
-@media screen and (max-width: 590px) {
-  .container-1 {
-    /* background: green; */
-  }
-}
 @media screen and (max-width: 490px) {
-  
-  .bull3_partner-roll {
-    gap: 10px;
-
-  }
-  
   .container-1 p {
     font-size: 20px;
     font-family: "Machina";

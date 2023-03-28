@@ -9,6 +9,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
+  margin-bottom: 30px;
+
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -27,7 +29,7 @@
   display: block;
   margin: 0 auto;
 }
-.team-section .team-member {
+.team-member {
   padding: 15px;
   height: 250px;
   display: flex;
@@ -35,7 +37,9 @@
   flex-direction: column;
   backdrop-filter: blur(81px);
   background: rgba(181, 199, 200, 0.13);
-  border-radius: 10px;
+
+  border-radius: 6px;
+  box-shadow: 0 4px 10px 0 rgba(189, 208, 223, 0.104);
 }
 
 .team-member img {
@@ -55,6 +59,10 @@
   background: #000000;
   padding: 5px;
   border-radius: 50%;
+  transition: transform 0.5s;
+}
+.team-socials img:hover {
+  transform: translateY(-10px);
 }
 
 .bull3_vid-banner-team {
@@ -135,4 +143,16 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 15px;
   }
+}
+
+.sample-slider {
+  width: 70%;
+  background: red;
+}
+.sample-slider .swiper-slide {
+  border-radius: 20px;
+}
+.sample-slider img {
+  width: 100%;
+  vertical-align: bottom;
 }

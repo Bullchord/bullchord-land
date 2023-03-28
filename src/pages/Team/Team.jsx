@@ -1,4 +1,5 @@
 import React from 'react'
+import Swiper from 'swiper'
 // import Header from '../Header'
 import founder from '../../assets/mich.png'
 import twitter from '../../assets/twitter.svg'
@@ -10,22 +11,72 @@ import Colorful from '../../assets/colorful.mp4'
 import './team.css'
 
 const teamData = [
-  { id: 1, founderName: 'Michael Balogun', pos: 'CEO', img: founder },
+  {
+    id: 1,
+    founderName: 'Michael Balogun',
+    pos: 'cofounder & CEO',
+    img: founder,
+    tweet: 'https://twitter.com/simplymikes',
+    linked: 'https://www.linkedin.com/in/michael-b-319a13138/',
+  },
   {
     id: 2,
     founderName: 'Abusomwan Santos',
-    pos: 'Web3 Developer',
+    pos: 'cofounder & Web3 Developer',
     img: founder,
+    tweet: 'https://twitter.com/kingjul1en',
+    linked: 'https://www.linkedin.com/in/abusomwan-santos/',
   },
-  { id: 3, founderName: 'Alexander Jessica', pos: 'HR', img: founder },
-  { id: 4, founderName: 'Seth Daniel', pos: 'Marketer', img: founder },
+  /* call to action button */
+  {
+    id: 5,
+    founderName: 'Francis Oche ',
+    pos: 'cofounder & Marketer',
+    img: founder,
+    tweet: 'https://twitter.com/NGPreacher',
+    linked: 'https://www.linkedin.com/in/francis-samuel-oche-315926269',
+  },
+  {
+    id: 3,
+    founderName: 'Alexander Jessica',
+    pos: 'HR',
+    img: founder,
+    linked: 'https://www.linkedin.com/in/jessica-alexander-8619751b0',
+  },
+  {
+    id: 4,
+    founderName: 'Seth Daniel',
+    pos: 'Marketer',
+    img: founder,
+    tweet: 'https://twitter.com/Sethdannyyak',
+    linked: 'https://www.linkedin.com/in/seth-dani-yakubu-345705251',
+  },
   { id: 5, founderName: 'Zulay Pulido ', pos: 'Designer', img: founder },
-  { id: 5, founderName: 'Francis Oche ', pos: 'Marketer', img: founder },
   { id: 5, founderName: 'Caner', pos: 'Marketer', img: founder },
-  { id: 5, founderName: 'Colin Power', pos: 'Advisor', img: founder },
+  {
+    id: 5,
+    founderName: 'Colin Power',
+    pos: 'Advisor',
+    img: founder,
+    tweet: 'https://twitter.com/collin_code',
+    linked: 'https://twitter.com/collin_code',
+  },
 ]
 
 const Team = () => {
+  const swiper = new Swiper('.sample-slider', {
+    effect: 'cards', //make slider card
+    grabCursor: true, //grab cursor
+    pagination: {
+      //pagination(dots)
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      //navigation(arrows)
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
   return (
     <>
       <div className="bull3_team-container">
@@ -44,9 +95,12 @@ const Team = () => {
                 <h3>{team.founderName}</h3>
                 <small>{team.pos}</small>
                 <div className="team-socials">
-                  <img src={twitter} alt="twitter" />
-                  {/* <img src={telegram} /> */}
-                  <img src={linkedin} alt="linkedin" />
+                  <a href={team.tweet} target="_blank" rel="noreferrer">
+                    <img src={twitter} alt="twitter" />
+                  </a>
+                  <a href={team.linked} target="_blank" rel="noreferrer">
+                    <img src={linkedin} alt="linkedin" />
+                  </a>
                 </div>
               </div>
             )
@@ -56,6 +110,29 @@ const Team = () => {
       <div className="bull3_downbg">
         <h1> Empowering Artists Like Never Before</h1>
       </div>
+
+      {/* <div className="swiper sample-slider">
+        <div className="swiper-wrapper">
+          <div className="swiper-slide">
+            <p>sample 1</p>
+            <img src={twitter} />
+          </div>
+          <div className="swiper-slide">
+            <img src={linkedin} />
+          </div>
+          <div className="swiper-slide">
+            <p>sample 3</p>
+            <img src={twitter} />
+          </div>
+          <div className="swiper-slide">
+            <p>sample 4</p>
+            <img src={linkedin} />
+          </div>
+        </div>
+        <div className="swiper-pagination"></div>
+        <div className="swiper-button-prev"></div>
+        <div className="swiper-button-next"></div>
+      </div> */}
     </>
   )
 }

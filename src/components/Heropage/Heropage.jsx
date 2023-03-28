@@ -6,33 +6,41 @@ import sound3 from '../../assets/sound-sign3.svg'
 import Hicon1 from '../../assets/h-icon.svg'
 import Hicon2 from '../../assets/h-icon2.png'
 import Hicon3 from '../../assets/h-icon3.svg'
+import binance from '../../assets/binance.svg'
+import bull from '../../assets/bullch.svg'
+import ipfs from '../../assets/ipfs.svg'
+import unity from '../../assets/unity.svg'
+import zep from '../../assets/zep.svg'
 import girl from '../../assets/girl.mp4'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
-      <div className="bull3_video_home">
-        <Video
-          className="bull3_video-main"
-          autoPlay
-          loop
-          muted
-          controls={[
-            'UnPlayPause',
-            'UnSeek',
-            'UnTime',
-            'UnVolume',
-            'UnFullscreen',
-          ]}
-        >
-          <source src={girl} type="video/mp4" />
-        </Video>
-        <h3>Music NFT MarketPlace coming soon</h3>
-      </div>
       <div className="bull3__header" id="home">
         <div className="bull3__header-content">
-          <h1 className="bull3__broad">Autonomy web3 music space.</h1>
+          <div className="small_screen bull_hero_display">
+            <p>
+              Autonomy
+              <span className="bull_intro_image ">
+                <img src={binance} alt="" />
+                <img src={zep} alt="" />
+                <img src={bull} alt="" />
+                <img src={ipfs} alt="" />
+                <img src={unity} alt="" />
+              </span>
+              web3 music space
+            </p>
+          </div>
+          <span className="bull_intro_image small_screen_2 ">
+            <img src={binance} alt="" />
+            <img src={zep} alt="" />
+            <img src={bull} alt="" />
+            <img src={ipfs} alt="" />
+            <img src={unity} alt="" />
+          </span>
+
+          <h1 className="bull3__broad small_h1">Autonomy web3 music space.</h1>
 
           <section className="animation">
             <div className="first">
@@ -45,13 +53,7 @@ const Header = () => {
               <div>Listen and earn </div>
             </div>
           </section>
-          <p>Lifetime royalty for artists on every trade.</p>
-          <img src={Hicon1} alt="icon" />
-          <img src={Hicon3} alt="icon" />
-          <img src={Hicon2} alt="icon" />
-          <img src={sound2} alt="icon" />
-          <img src={sound3} alt="icon" />
-          <img src={Hicon1} alt="icon" />
+          <p className='bull_3_p'>Lifetime royalty for artists on every trade.</p>
 
           <div className="bull3__header-content_btn">
             <button className="btn-2" type="button">

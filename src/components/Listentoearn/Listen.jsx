@@ -31,7 +31,12 @@ const Listen = () => {
             token holders to distribute rewards from a decentralized pool.
           </p>
 
-          <a href="#" className="cta">
+          <a
+            href="https://twitter.com/bullchord"
+            target="_blank"
+            rel="noreferrer"
+            className="cta"
+          >
             <span>Join Waitlist</span>
             <svg width="13px" height="10px" viewBox="0 0 13 10">
               <path d="M1,5 L11,5"></path>

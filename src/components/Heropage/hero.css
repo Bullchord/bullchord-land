@@ -7,12 +7,50 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 650px;
   width: 100%;
   padding-top: 11rem;
 }
 
-.bull3_video_home Video {
+.small_screen {
+  display: block;
+}
+.small_screen_2,
+.small_h1 {
+  display: none;
+}
+
+.bull_hero_display {
+  /* background: #000; */
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bull_hero_display p {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 100px;
+  letter-spacing: 0.02em;
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+.bull_hero_display p span {
+  margin-left: 30px;
+  /* background: rgba(16, 59, 62, 0.671); */
+  /* width: 270px; */
+  padding: 10px;
+  /* display: block; */
+  /* height: 50px; */
+  /* border-radius: 40px; */
+}
+/* .bull3_video_home Video {
   width: 100vw;
   height: 200px;
   object-fit: cover;
@@ -45,23 +83,9 @@
   padding-top: 7.5rem;
   font-family: "Machina";
   text-align: left;
-}
+} */
 
 .bull3__header-content img {
-  text-align: center;
-}
-
-.bull3__header-content h1 {
-  width: 100%;
-  /* max-width: 800px; */
-  border-radius: nullpx;
-  font-family: "Poppins";
-  font-size: 80px;
-  font-weight: 600;
-  line-height: 84px;
-  letter-spacing: 0em;
-  display: block;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -69,7 +93,7 @@
   color: #ffffff;
 }
 
-.bull3__header-content p {
+.bull_3_p {
   font-family: "Poppins";
   font-size: 24px;
   font-weight: 600;
@@ -169,11 +193,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Machina";
   font-weight: 600;
   color: #f4f4f4f6;
-  margin-top: 40px;
 }
 
 .animation > div > div {
@@ -233,11 +256,22 @@
 }
 
 @media screen and (max-width: 1050px) {
+  /* .bull_intro_image {
+    margin-top: 0px;
+    background: rgba(16, 59, 62, 0.671);
+    width: 270px;
+    height: 60px;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
   .bull3__header {
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 680px;
+    height: 600px;
   }
 
   .bull3__header-content {
@@ -245,7 +279,7 @@
   }
 
   .bull3__header-content h1 {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     width: 100%;
     border-radius: nullpx;
     font-family: "Poppins";
@@ -264,22 +298,57 @@
     line-height: 35px;
     letter-spacing: 0.005em;
     text-align: center;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
   }
 }
 
 @media screen and (max-width: 770px) {
-  .bull3__header {
-    height: 500px;
-  }
-  .bull3__header-content h1 {
-    padding-top: 2rem;
+  .bull3__broad {
     width: 100%;
     border-radius: nullpx;
     font-family: "Poppins";
-    font-size: 70px;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .bull_intro_image {
+    margin-top: 0px;
+    background: rgba(16, 59, 62, 0.671);
+    width: 270px;
+    height: 60px;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .small_screen {
+    display: none;
+  }
+  .small_h1 {
+    display: block;
+  }
+  .bull_intro_image img:nth-child(3) {
+    width: 50px;
+  }
+  .bull_intro_image img {
+    width: 40px;
+  }
+  .bull3__header {
+    height: 570px;
+  }
+  .bull3__broad {
+    color: #ffffff;
+    width: 100%;
+    border-radius: nullpx;
+    font-family: "Poppins";
+    font-size: 30px;
     font-weight: 700;
-    line-height: 70px;
     letter-spacing: 0em;
     text-align: center;
   }
@@ -302,9 +371,18 @@
     text-align: center;
     padding-top: 3rem;
   }
+  .animation {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 590px) {
+  .bull3__header {
+    height: 540px;
+  }
+  .bull_intro_image {
+    margin-top: 40px;
+  }
   .bull3_video_home h3 {
     margin-top: 20px;
     margin-left: 40px;
@@ -376,7 +454,7 @@
   .bull3__header-content h1 {
     width: 100%;
     font-family: "Poppins";
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 600;
     letter-spacing: 0em;
     text-align: center;
@@ -395,7 +473,7 @@
   }
 
   .bull3__header-content_btn button {
-    padding: 12px 30px;
+    padding: 12px 15px;
     outline: none;
     font-size: 14px;
   }

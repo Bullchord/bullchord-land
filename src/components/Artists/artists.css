@@ -1,87 +1,180 @@
 .carousel {
-    width: 100%;
-    height: 700px;
-    background: #000000;
-    /* background-image: url('../../assets//liquiddark.png');
+  width: 100%;
+  height: 700px;
+  background: #000000;
+  /* background-image: url('../../assets//liquiddark.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    color: rgb(163, 165, 175);
+  color: rgb(163, 165, 175);
+}
+.carousel-container {
+  padding: 20px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-desc-card {
+  height: 600px;
+  margin-right: 40px;
+  text-align: center;
+  padding: 15px;
+  width: 30%;
+  border-radius: 15px;
+  border: 1px solid rgba(151, 71, 255, 0.4611);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-desc-card p {
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+.carousel-card {
+  width: 75%;
+  font-family: "Roboto", sans-serif;
+  /* gap: 15px; */
+}
+
+.card-bottom p {
+  line-height: 20%;
+}
+
+.main-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+  gap: 15px;
+  color: #fff;
+}
+.card {
+  width: 30rem;
+  height: 38.5rem;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  /* color: #222222; */
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  transition: opacity 0.2s ease-out;
+}
+
+.card-content {
+  background: red;
+  background-color: #fff;
+}
+.card h2 {
+  position: absolute;
+  inset: auto auto 30px 30px;
+  margin: 0;
+  transition: inset 0.3s 0.3s ease-out;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  /* color: #222222; */
+}
+.card p {
+  position: absolute;
+  opacity: 0;
+  max-width: 80%;
+  transition: opacity 0.3s ease-out;
+  color: #dfdddd;
+  font-family: "Verdana";
+}
+
+.card p {
+  inset: auto auto 80px 30px;
+}
+.social-handles {
+  display: flex;
+  gap: 50px;
+  position: absolute;
+  opacity: 0;
+  max-width: 80%;
+  transition: opacity 0.3s ease-out;
+  inset: auto auto 15px 146px;
+}
+.social-handles img {
+  width: 20px;
+  transition: transform 0.5s;
+}
+.social-handles img:hover {
+  transform: translateY(-10px);
+}
+.card:hover .social-handles {
+  opacity: 1;
+  transition: opacity 0.5s 0.1s ease-in;
+}
+.card {
+  inset: auto auto 40px 30px;
+  text-decoration: none;
+}
+.card:hover h2 {
+  inset: auto auto 220px 30px;
+  transition: inset 0.3s ease-out;
+}
+.card:hover p {
+  opacity: 1;
+  transition: opacity 0.5s 0.1s ease-in;
+}
+.card:hover .card-img {
+  transition: opacity 0.3s ease-in;
+  opacity: 1;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1050px) {
+  .carousel-desc-card {
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 15px;
+    border: 1px solid rgba(151, 71, 255, 0.4611);
+    margin-bottom: 2rem;
   }
+  .carousel-desc-card p {
+    text-align: center;
+  }
+  .carousel-card {
+    width: 600%;
+  }
+
   .carousel-container {
     padding: 20px;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
-  
-  .carousel-desc-card {
-    height: 600px;
-    margin-right: 40px;
-    text-align: center;
-    padding: 15px;
-    width: 30%;
-    border-radius: 15px;
-    border: 1px solid rgba(151, 71, 255, 0.4611);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .carousel-desc-card p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-  }
-  .carousel-card {
-    width: 75%;
-  }
-  
-  .card-bottom p {
-    line-height: 20%;
-  }
 
- 
-
-  @media screen and (max-width: 1050px) {
-    
-    .carousel-desc-card {
-        height: 100px;
-        /* margin-right: 1px; */
-        text-align: center;
-        padding: 15px;
-        width: 90%;
-        max-width: 900px;
-        border-radius: 15px;
-        border: 1px solid rgba(151, 71, 255, 0.4611);
-        margin-bottom: 2rem;
-        /* display: block;
-        margin: 0 auto; */
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-      }
-      .carousel-desc-card p {
-        text-align: center;
-      }
-    .carousel-card {
-        width: 600%;
-      }
-
-      .carousel-container {
-        padding: 20px;
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-
-      .carousel {
-        width: 100%;
-        height: 900px;
-        background: #000;
-        color: rgb(163, 165, 175);
-      }
+  .carousel {
+    width: 100%;
+    height: 900px;
+    background: #000;
+    /* color: rgb(163, 165, 175); */
   }
+}

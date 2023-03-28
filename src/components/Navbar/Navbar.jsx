@@ -1,22 +1,28 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
+import { Link } from 'react-router-dom'
 import logo from '../../assets/logowhite.png'
 import './navbar.css'
-
 // Try and understand BEM later BLOCK ELEMENT MODIFIER
 
 const Menu = () => (
   <>
-    {/* <p className='linkss'> <a href="#home">Artist</a> </p>  */}
-    <p className="linkss">
-      {' '}
-      <a href="/tokenomics">Token</a>{' '}
-    </p>
-    <p className="linkss">
-      {' '}
-      <a href="/docs">Roadmap</a>{' '}
-    </p>
-    <p className='linkss'> <a href="/team">Team</a> </p> 
+    <Link to={'/docs'} className="links">
+      Roadmap
+    </Link>
+    <Link to={'/tokenomics'} className="links">
+      Token
+    </Link>
+    <Link to={'/team'} className="links">
+      Team
+    </Link>
+    <a
+      href="https://bullchords-organization.gitbook.io/litepaper/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Litepaper
+    </a>
   </>
 )
 
@@ -69,11 +75,11 @@ const Navbar = () => {
                 {/* <p>Sign In</p> */}
                 <button className="btn btn-1" type="button">
                   <a
-                    href="http://localhost:3000/"
+                    href="https://discord.gg/bPzTeDke2h"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Join Waitlist
+                    Join Discord
                   </a>
                 </button>
               </div>
