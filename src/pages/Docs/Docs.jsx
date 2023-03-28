@@ -43,10 +43,9 @@ const Docs = () => {
 
           <div className="quarters-timeline">
             <div className="timeline-text">
-              <p>Launchpad</p>
-              <p>Dex listing</p>
-              <p>Liquidity lock</p>
-              <p>Listing on Coinmarketscap & Coingecko</p>
+              <p>Seed</p>
+              <p>Marketplace Launch</p>
+              <p>Celebrity Anni feature</p>
             </div>
             <img src={qRule} alt="quarters rule" />
           </div>
@@ -60,10 +59,12 @@ const Docs = () => {
             <img src={qRule} alt="quarters rule" />
 
             <div className="timeline-text">
-              <p>Marketplace Launch</p>
-              <p>Mobile apps beta release ( ANDROID)</p>
+              <p>Launchpad</p>
+              <p>Dex listing</p>
+              <p>Liquidity lock</p>
+              <p>Mobile apps beta release (IOS & ANDROID)</p>
+              <p>Listing on Coinmarketscap & Coingecko</p>
               <p>Massive artist onboarding</p>
-              <p>Celebrity Anni. feature</p>
             </div>
           </div>
         </div>
@@ -82,6 +83,16 @@ const Docs = () => {
             <img src={qRule} alt="quarters rule" />
           </div>
         </div>
+        {/* <div className="quarters-e">
+          <h2>Q1 2024</h2>
+          <div className="quarters-timeline">
+            <div className="timeline-text">
+              <p> Meta club</p>
+              <p>Bullchord music Fest. </p>
+            </div>
+            <img src={qRule} alt="quarters rule" />
+          </div>
+        </div> */}
       </div>
       <div className="bull3_roadmap-down">
         <p>

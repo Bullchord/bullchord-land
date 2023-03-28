@@ -7,6 +7,15 @@ import Binance from '../../assets/image 7.svg'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow'
 import PauseIcon from '@mui/icons-material/Pause'
 import './song.css'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/effect-cube'
+import 'swiper/css/pagination'
+
+// import required modules
+import { EffectCube, Pagination } from 'swiper'
 
 const Song = () => {
   const [isPlaying, setIsPlaying] = useState(false)
@@ -50,27 +59,64 @@ const Song = () => {
           </div>
 
           <div className="bull3_song-coltwo">
-            <img className="music-img" src={Mj} alt="mj" />
-            <div className="music_details">
-              <div className="music_title">Michael Jackson</div>
-              {!isPlaying ? (
-                <PlayArrowIcon onClick={playing} className="play-img" />
-              ) : (
-                <PauseIcon onClick={playing} className="pause-img" />
-              )}
-              <audio
-                ref={audioRef}
-                src={mj}
-                onPause={() => playing}
-                onEnded={playing}
-                autoPlay={isPlaying}
-              />
-              <div className="music_price"> Price</div>
-            </div>
-            <div className="music_detail">
-              <div className="artist_name">Billie Jean</div>
-              <div className="music_cost">Not for Sale</div>
-            </div>
+            <Swiper
+              effect={'cube'}
+              // grabCursor={true}
+              cubeEffect={{
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+              }}
+              pagination={true}
+              modules={[EffectCube, Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <div className="img">
+                  <h1>hello 1</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="img">
+                  <img className="music-img" src={Mj} alt="mj" />
+                  <div className="music_details">
+                    <div className="music_title">Michael Jackson</div>
+                    {!isPlaying ? (
+                      <PlayArrowIcon onClick={playing} className="play-img" />
+                    ) : (
+                      <PauseIcon onClick={playing} className="pause-img" />
+                    )}
+                    <audio
+                      ref={audioRef}
+                      src={mj}
+                      onPause={() => playing}
+                      onEnded={playing}
+                      autoPlay={isPlaying}
+                    />
+                    <div className="music_price"> Price</div>
+                  </div>
+                </div>
+                <div className="music_detail">
+                  <div className="artist_name">Billie Jean</div>
+                  <div className="music_cost">Not for Sale</div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="img">
+                  <h1>hello 2</h1>
+                </div>
+
+                {/* <img src="https://swiperjs.com/demos/images/nature-3.jpg" /> */}
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="img">
+                  <h1>hello 3</h1>
+                </div>
+
+                {/* <img src="https://swiperjs.com/demos/images/nature-4.jpg" /> */}
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
         <div className="bull3_genre">

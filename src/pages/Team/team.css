@@ -145,14 +145,3 @@
   }
 }
 
-.sample-slider {
-  width: 70%;
-  background: red;
-}
-.sample-slider .swiper-slide {
-  border-radius: 20px;
-}
-.sample-slider img {
-  width: 100%;
-  vertical-align: bottom;
-}

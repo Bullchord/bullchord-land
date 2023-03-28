@@ -158,13 +158,13 @@
   
   @media screen and (max-width: 768px) {
     .bull3__chart {
-      height: 670px;
+      height: 750px;
     }
   
     .bull3__content {
       color: white;
       flex-direction: column;
-      text-align: center;
+      /* text-align: center; */
     }
     .bull3_metric li {
       list-style: none;
@@ -176,8 +176,8 @@
       width: 30px;
     }
     .bull3_metric p {
-      font-size: 16px;
-      text-align: center;
+      font-size: 15px;
+      text-align: left;
     }
   
     .bull3__chart {

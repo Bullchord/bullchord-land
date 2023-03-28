@@ -9,15 +9,7 @@ import 'react-html5video/dist/styles.css'
 import Colorful from '../../assets/colorful.mp4'
 import './team.css'
 
-// import { Swiper, SwiperSlide } from 'swiper/react'
 
-// Import Swiper styles
-// import 'swiper/css'
-// import 'swiper/css/effect-cube'
-// import 'swiper/css/pagination'
-
-// import required modules
-// import { EffectCube, Pagination } from 'swiper'
 
 const teamData = [
   {
@@ -78,19 +70,6 @@ const teamData = [
 ]
 
 const Team = () => {
-  // const swiper = new Swiper('.sample-slider', {
-  //   effect: 'cards', //make slider card
-  //   grabCursor: true, //grab cursor
-  //   pagination: {
-  //     //pagination(dots)
-  //     el: '.swiper-pagination',
-  //   },
-  //   navigation: {
-  //     //navigation(arrows)
-  //     nextEl: '.swiper-button-next',
-  //     prevEl: '.swiper-button-prev',
-  //   },
-  // })
   return (
     <>
       <div className="bull3_team-container">
@@ -124,33 +103,6 @@ const Team = () => {
       <div className="bull3_downbg">
         <h1> Empowering Artists Like Never Before</h1>
       </div>
-
-      {/* <Swiper
-        effect={'cube'}
-        grabCursor={true}
-        cubeEffect={{
-          shadow: true,
-          slideShadows: true,
-          shadowOffset: 20,
-          shadowScale: 0.94,
-        }}
-        pagination={true}
-        modules={[EffectCube, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-        </SwiperSlide>
-      </Swiper> */}
     </>
   )
 }
