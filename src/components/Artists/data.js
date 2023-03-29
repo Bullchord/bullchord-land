@@ -1,4 +1,4 @@
-import artiste1 from "../../assets/artiste1.svg";
+// import artiste1 from "../../assets/artiste1.svg";
 import banjo from "../../assets/banjo.png";
 import musician from "../../assets/musician.jpg";
 import lady from "../../assets/lady.jpg";

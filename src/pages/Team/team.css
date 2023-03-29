@@ -67,7 +67,7 @@
 
 .bull3_vid-banner-team {
   margin-top: -30rem;
-  position: absolute;
+  position: sticky;
   width: 100%;
   height: 100vh;
   overflow: hidden;

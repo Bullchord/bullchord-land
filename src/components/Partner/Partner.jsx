@@ -1,6 +1,6 @@
 import React from 'react'
-import Binance from '../../assets/image 7.svg'
-import Gecko from '../../assets/image 8.svg'
+// import Binance from '../../assets/image 7.svg'
+// import Gecko from '../../assets/image 8.svg'
 import './partner.css'
 
 const Partner = () => {

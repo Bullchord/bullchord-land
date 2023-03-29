@@ -3,7 +3,7 @@ import { artisteData } from './data'
 import './artists.css'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Slider from 'react-slick'
+// import Slider from 'react-slick'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import twitter from '../../assets/twitter1.svg'

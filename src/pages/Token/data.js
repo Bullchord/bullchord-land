@@ -1,5 +1,5 @@
 import eco from "../../assets/Ecosystem.svg";
-import locked from "../../assets/twenty.svg";
+// import locked from "../../assets/twenty.svg";
 import marketing from "../../assets/marketing.svg";
 import treasury from "../../assets/treasury.svg";
 import team from "../../assets/team.svg";

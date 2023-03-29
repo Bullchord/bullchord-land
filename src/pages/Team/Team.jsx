@@ -14,7 +14,7 @@ import './team.css'
 const teamData = [
   {
     id: 1,
-    founderName: 'Michael Balogun',
+    founderName: 'Michael B',
     pos: 'Web/Blockchain dev',
     img: founder,
     tweet: 'https://twitter.com/simplymikes',
@@ -67,6 +67,15 @@ const teamData = [
     tweet: 'https://twitter.com/collin_code',
     linked: 'https://twitter.com/collin_code',
   },
+
+  {
+    id: 5,
+    founderName: 'Alvin O',
+    pos: 'Advisor',
+    img: founder,
+    tweet: '',
+    linked: '',
+  },
 ]
 
 const Team = () => {
@@ -101,7 +110,7 @@ const Team = () => {
         </div>
       </div>
       <div className="bull3_downbg">
-        <h1> Empowering Artists Like Never Before</h1>
+        <h1> Freedom For The People In Music</h1>
       </div>
     </>
   )

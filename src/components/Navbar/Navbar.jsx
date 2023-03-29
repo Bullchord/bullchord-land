@@ -1,3 +1,4 @@
+// import { display } from '@mui/system'
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
@@ -7,6 +8,7 @@ import './navbar.css'
 
 const Menu = () => (
   <>
+
     <Link to={'/docs'} className="links">
       Roadmap
     </Link>
@@ -16,14 +18,16 @@ const Menu = () => (
     <Link to={'/team'} className="links">
       Team
     </Link>
+    
     <a
       href="https://bullchords-organization.gitbook.io/litepaper/"
       target="_blank"
       rel="noreferrer"
-    >
+      className='links'>
       Litepaper
     </a>
   </>
+
 )
 
 const Navbar = () => {
@@ -37,7 +41,7 @@ const Navbar = () => {
       </div>
       <div className="bull3__navbar-links">
         <div className="bull3__navbar-links_container">
-          <Menu />
+          <Menu/>
         </div>
       </div>
       <div className="bull3__navbar-sign">
@@ -70,7 +74,7 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="bull3__navbar-menu_container scale-up-hor-right">
             <div className="bull3__navbar-menu_container-links">
-              <Menu />
+              <Menu/> 
               <div className="bull3__navbar-menu_container-links-sign">
                 {/* <p>Sign In</p> */}
                 <button className="btn btn-1" type="button">

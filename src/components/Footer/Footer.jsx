@@ -1,19 +1,19 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './footer.css'
 import logo3 from '../../assets/logoblack.png'
 // import BullInput from '../../BullInput'
-import telegram from '../../assets/ftele.png'
+// import telegram from '../../assets/ftele.png'
 import medium from '../../assets/fmedium.svg'
 import twitter from '../../assets/ftwitter.svg'
 import discord from '../../assets/Fdiscord.svg'
 
 const Footer = () => {
-  const [emailList, setEmaillist] = useState('')
-  const addToEmail = () => {
-    console.log(emailList)
-    setEmaillist('')
-  }
+  // const [emailList, setEmaillist] = useState('')
+  // const addToEmail = () => {
+  //   console.log(emailList)
+  //   setEmaillist('')
+  // }
   return (
     <>
       <div className="footer">
@@ -48,9 +48,9 @@ const Footer = () => {
             <div className="footer-menu-down">
               <h3>OUR COMMUNITY</h3>
               <div className="social-networks">
-                <a href="#">
+                {/* <a href="#">
                   <img src={telegram} alt="" />
-                </a>
+                </a> */}
                 <a
                   href="https://medium.com/@bullchord"
                   target="_blank"

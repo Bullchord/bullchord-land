@@ -1,6 +1,6 @@
 import React from 'react'
 import Speaker from '../../assets/speaker1.svg'
-import String from '../../assets/stringblack.svg'
+// import String from '../../assets/stringblack.svg'
 import sound1 from '../../assets/sound-sign.svg'
 import sound2 from '../../assets/sound-sign1.svg'
 import sound3 from '../../assets/sound-sign3.svg'
