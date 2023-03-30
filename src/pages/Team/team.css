@@ -3,7 +3,7 @@
 }
 .bull3_vid-banner-team {
   background: #6d00bf;
-  height: 400px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,6 +38,10 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.found-name {
+  padding-bottom: 20px;
 }
 
 .bull3_team {
@@ -89,7 +93,7 @@
 
 .bull3_vid-banner-team h1 {
   width: 100%;
-  font-size: 100px;
+  font-size: 200px;
   text-align: center;
   color: #000000;
   line-height: 20vh;
@@ -107,6 +111,17 @@
     background-size: 200px;
     background-repeat: no-repeat;
   }
+
+
+.bull3_vid-banner-team {
+  background: #6d00bf;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
   .team-intro p {
     font-size: 16px;
   }
@@ -137,6 +152,8 @@
   .bull3_vid-banner-team h1 {
     font-size: 100px;
   }
+
+  
 }
 
 @media screen and (max-width: 450px) {

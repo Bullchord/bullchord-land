@@ -58,7 +58,7 @@ const Header = () => {
           <div className="bull3__header-content_btn">
             <button className="btn-2" type="button">
               <a href="http://localhost:3000/" target="_blank" rel="noreferrer">
-                Presale
+                Sales
               </a>
             </button>
             <button className="btn-2" type="button">

@@ -20,9 +20,9 @@ const Listen = () => {
           <img className="sound3 roll-out-right " src={sound3} alt="" />
           <img className="sound3 roll-out-right " src={sound3} alt="" />
           <img className="sound3 roll-out-right" src={sound1} alt="" />
-          <img className="sound3 roll-out-right " src={sound2} alt="" />
-          <img className="sound3 roll-out-right " src={sound3} alt="" />
-          <img className="sound3 roll-out-right " src={sound3} alt="" />
+          <img className="sound3 roll-out-right" src={sound2} alt="" />
+          <img className="sound3 roll-out-right" src={sound3} alt="" />
+          <img className="sound3 roll-out-right" src={sound3} alt="" />
           <img className="speaker heartbeat" src={Speaker} alt="dpeak" />
         </div>
         <div className="bull3_col-two">

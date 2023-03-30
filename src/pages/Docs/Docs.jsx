@@ -4,9 +4,9 @@ import qRule from '../../assets/quarterrule.svg'
 import quarters1 from '../../assets/quarter1.svg'
 import quarters2 from '../../assets/quarter2.svg'
 import quarters3 from '../../assets/quarter3.svg'
-import { DefaultPlayer as Video } from 'react-html5video/dist'
+// import { DefaultPlayer as Video } from 'react-html5video/dist'
 import 'react-html5video/dist/styles.css'
-import Colorful from '../../assets/colorful.mp4'
+// import Colorful from '../../assets/colorful.mp4'
 import forroadmap from "../../assets/forroadmap.png"
 // import { artisteData } from './data'
 
@@ -95,9 +95,7 @@ const Docs = () => {
       </div>
       <div className="bull3_roadmap-down">
         <p>
-          Bullchord is a powerful music platform for musicians to create an
-          empowering experience for listeners. Every expert of the platform is
-          designed from the ground up to support better music scalin
+        We are strengthening the music industry, we are making Bullchord the power source for everyone in the music industry.
         </p>
       </div>
 

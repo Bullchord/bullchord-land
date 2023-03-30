@@ -4,6 +4,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow-x: hidden !important;
 }
 .bull3_vid-banner-doc img{
   position: relative;
@@ -69,7 +70,7 @@
   color: #000;
 }
 .timeline-text .q1 {
-  color: #14a5ad;
+  color: #6d00bf;
 }
 
 
@@ -85,7 +86,7 @@
   /* height: 80vh; */
   display: flex;
   background: #6d00bf;
-  height: 350px;
+  height: 500px;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
@@ -96,7 +97,7 @@
 }
 
 .bull3_vid-banner-doc img{
-  width: 400px;
+  width: 300px;
 }
 
 .bull3_vid-banner-doc h1 {
@@ -134,6 +135,21 @@
     top: -6%;
     width: 80px;
   }
+  .bull3_vid-banner-doc {
+  
+    /* height: 80vh; */
+    display: flex;
+    background: #6d00bf;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
 }
 
 @media screen and (max-width: 600px) {

@@ -23,6 +23,11 @@
   margin-top: 30px;
 }
 
+.footer-menu-down h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .footer-logo img {
   width: 300px;
   display: block;
@@ -46,6 +51,14 @@
   border: 1px solid #2f2f2f87;
 }
 .footer-menu-top .right-menu p {
+  color: #2f2f2f;
+}
+
+.right-menu .lin {
+  color: #2f2f2f;
+}
+
+.left-menu .lin {
   color: #2f2f2f;
 }
 
@@ -129,5 +142,18 @@
     max-width: 400px;
     margin-top: 30px;
     text-align: center;
+  }
+
+  .footer-menu-down h3 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .right-menu h3 {
+    padding-top: 50px;
+  }
+
+  .left-menu h3 {
+    padding-top: 50px;
   }
 }
