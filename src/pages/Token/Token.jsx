@@ -5,6 +5,7 @@ import Colorful from '../../assets/colorful.mp4'
 import './token.css'
 
 import pieChart from '../../assets/piechart.svg'
+import tokenbg from '../../assets/tokenbg.png'
 
 import { distribution } from './data'
 
@@ -13,10 +14,22 @@ const Chart = () => {
     <>
       <div className="bull3_token_head">
         <div className="bull3_vid-banner">
-          <Video className="video" autoPlay loop muted>
-            <source src={Colorful} type="video/mp4" />
-          </Video>
           <h1>Token</h1>
+          {/* <img src={tokenbg} alt="" /> */}
+        </div>
+        <div className="token-intro">
+          <h4>Introducing $Bullchord, The Bullchord platform Native Token.</h4>
+          <p>
+            A blockchain/decentralized protocol requires financial mechanisms to
+            enable incentives and rewards.{' '}
+            <a
+              href="https://bullchords-organization.gitbook.io/litepaper/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Learn More
+            </a>
+          </p>
         </div>
       </div>
       <div className="bull3__chart">

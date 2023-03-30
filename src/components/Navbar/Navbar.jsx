@@ -1,5 +1,5 @@
 // import { display } from '@mui/system'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logowhite.png'
@@ -32,6 +32,14 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
+  // useEffect(() => {
+  //   first
+  
+  //   return () => {
+  //     second
+  //   }
+  // }, [third])
+  
   return (
     <div className="bull3__navbar">
       <div className="bull3__navbar-links_logo">

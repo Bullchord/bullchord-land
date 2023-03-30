@@ -9,8 +9,6 @@ import 'react-html5video/dist/styles.css'
 import Colorful from '../../assets/colorful.mp4'
 import './team.css'
 
-
-
 const teamData = [
   {
     id: 1,
@@ -82,12 +80,15 @@ const Team = () => {
   return (
     <>
       <div className="bull3_team-container">
-        {/* <Header des="Meet the team" /> */}
         <div className="bull3_vid-banner-team">
-          <Video className="video" autoPlay loop muted>
-            <source src={Colorful} type="video/mp4" />
-          </Video>
           <h1>Team</h1>
+        </div>
+        <div className="team-intro">
+          <p>
+            Bullchord is a team of developers, web3 enthusiasts, music lovers
+            and builders. We aim to create total freedom in the music industry
+            by using a decentralized economy.
+          </p>
         </div>
         <div className="team-section">
           {teamData.map((team) => {

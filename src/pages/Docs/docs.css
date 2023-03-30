@@ -5,7 +5,11 @@
   -ms-user-select: none;
   user-select: none;
 }
-
+.bull3_vid-banner-doc img{
+  position: relative;
+  left: 0%;
+  top: -6%;
+}
 .hero-container {
   align-items: center;
   display: flex;
@@ -68,9 +72,7 @@
   color: #14a5ad;
 }
 
-.hero-main {
-  padding-top: 30rem;
-}
+
 
 .hero-main h1 {
   color: #000;
@@ -79,42 +81,30 @@
 }
 
 .bull3_vid-banner-doc {
-  margin-top: -50rem;
-  position: absolute;
-  width: 100%;
-  height: 80vh;
+  
+  /* height: 80vh; */
   display: flex;
+  background: #6d00bf;
+  height: 350px;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
 
-.bull3_vid-banner-doc .video {
-  margin-top: 10rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.bull3_vid-banner-doc img{
+  width: 400px;
 }
 
 .bull3_vid-banner-doc h1 {
-  margin-top: 10rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff;
+
   font-size: 200px;
   text-align: center;
   color: #000000;
-  line-height: 100vh;
-  mix-blend-mode: screen;
+  /* line-height: 50vh; */
 }
 
 .bull3_roadmap-down {
@@ -136,13 +126,19 @@
 
 @media screen and (max-width: 900px) {
   .bull3_vid-banner-doc h1 {
-    font-size: 100px;
+    font-size: 70px;
+  }
+  .bull3_vid-banner-doc img{
+    position: relative;
+    left: 0%;
+    top: -6%;
+    width: 80px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .bull3_vid-banner-doc h1 {
-    font-size: 80px;
+    font-size: 70px;
   }
   .bull3_roadmap-down p {
     font-family: "Verdana";

@@ -1,191 +1,192 @@
 .bull3_token_head {
-    padding-top: 10rem;
-    margin: 1rem;
-  }
-  
-  .bull3__chart {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    margin-top: 15rem;
-    margin-bottom: 10rem;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background: #fff;
-    height: 700px;
-  }
-  
-  .bull3_vid-banner {
-    margin-top: -30rem;
-    position: sticky;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .bull3_vid-banner .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90%;
-    object-fit: cover;
-  }
-  
+  height: 600px;
+}
+.bull3_vid-banner{
+  background: #6d00bf;
+  height: 350px;
+  /* height: 00px; */
+  /* margin-top: -4rem; */
+  display: flex;
+}
+
+.token-intro {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  height: 550px;
+  background-image: url("../../assets/bullchordb\ \(1\).png");
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  /* background: red; */
+}
+.token-intro {
+  /* width: 80%; 
+  margin: 0 auto; */
+  text-align: center;
+}
+.token-intro h4 {
+  font-family: "Poppins";
+}
+.token-intro a {
+  font-family: "Verdana";
+  color: #222222;
+  font-size: 18px;
+}
+.token-intro h4 {
+  font-family: "Verdana";
+  color: #222222;
+}
+.bull3__chart {
+  position: relative;
+  margin-top: 700px;
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fff;
+  height: 700px;
+}
+
+.bull3_vid-banner h1 {
+  width: 100%;
+  font-size: 200px;
+  text-align: center;
+  color: #000000;
+  /* line-height: 60vh; */
+}
+
+.bull3__piechart {
+  font-size: 20px;
+}
+
+.background__shape {
+  position: absolute;
+  background-size: cover;
+}
+
+.bull3__content {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bull3_metric li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.bull3_metric li img {
+  margin-right: 30px;
+}
+
+.bull3_metric p {
+  font-size: 20px;
+  font-family: "Verdana";
+}
+
+@media screen and (max-width: 1050px) {
   .bull3_vid-banner h1 {
-    margin-top: 15rem;
-    position: absolute;
-    top: 0;
-    left: 0;
+    font-size: 180px;
+    text-align: center;
+    color: #222222;
+    /* line-height: 25vh; */
+    /* mix-blend-mode: screen; */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bull3_vid-banner {
+    background: #6d00bf;
+    height: 270px;
+   
+}
+  .token-intro {
     width: 100%;
-    height: 80%;
-    background: #fff;
-    font-size: 200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    height: 300px;
+    background-image: url("../../assets/bullchordb\ \(1\).png");
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+  }
+  .token-intro {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .token-intro h4 {
+    font-family: "Poppins";
+  }
+  .token-intro a {
+    font-family: "Verdana";
+    color: #222222;
+    font-size: 16px;
+  }
+  .token-intro h4 {
+    font-family: "Verdana";
+    color: #222222;
+  }
+  .bull3_vid-banner h1 {
+    font-size: 120px;
     text-align: center;
     color: #000000;
-    line-height: 100vh;
-    mix-blend-mode: screen;
+    line-height: 20vh;
   }
-  
-  .bull3__piechart {
-    /* margin-top: 12rem; */
-    font-size: 20px;
-  }
-  
-  .background__shape {
-    position: absolute;
-    background-size: cover;
-  }
-  
+
   .bull3__content {
     color: black;
-    /* position: absolute; */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bull3_vid-banner h1 {
+    font-size: 100px;
+  }
+
+  .bull3_vid-banner {
+    width: 100%;
+    /* height: 70vh; */
+  }
+
+  .bull3__chart {
+    background: #fff;
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bull3__chart {
+    height: 750px;
+  }
+
+  .bull3__content {
+    color: black;
+    flex-direction: column;
+    /* text-align: center; */
   }
   .bull3_metric li {
     list-style: none;
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 5px;
   }
   .bull3_metric li img {
-    margin-right: 30px;
+    width: 30px;
   }
-  
   .bull3_metric p {
-    font-size: 20px;
-    font-family: "Verdana";
+    font-size: 15px;
+    text-align: left;
   }
-  
-  @media screen and (max-width: 1050px) {
-    .bull3_vid-banner h1 {
-      margin-top: 10rem;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: #fff;
-      font-size: 180px;
-      text-align: center;
-      color: #222222;
-      line-height: 100vh;
-      mix-blend-mode: screen;
-    }
+
+  .bull3__piechart img {
+    width: 300px;
+    padding: 10px;
   }
-  
-  @media screen and (max-width: 800px) {
-    .bull3_vid-banner h1 {
-      margin-top: 10rem;
-      position: sticky;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: #fff;
-      font-size: 120px;
-      text-align: center;
-      color: #000000;
-      /* line-height: 100vh; */
-      mix-blend-mode: screen;
-    }
-  
-    .bull3__content {
-      color: black;
-      /* position: absolute; */
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .bull3_vid-banner h1 {
-      margin-top: 10rem;
-      font-size: 100px;
-    }
-  
-    .bull3_vid-banner .video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      margin-top: 5rem;
-    }
-  
-    .bull3_vid-banner {
-      margin-top: -25rem;
-      position: absolute;
-      width: 100%;
-      height: 100vh;
-    }
-  
-    .bull3__chart {
-      background: #fff;
-      height: 1000px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .bull3__chart {
-      height: 750px;
-    }
-  
-    .bull3__content {
-      color: black;
-      flex-direction: column;
-      /* text-align: center; */
-    }
-    .bull3_metric li {
-      list-style: none;
-      display: flex;
-      align-items: center;
-      margin-top: 5px;
-    }
-    .bull3_metric li img {
-      width: 30px;
-    }
-    .bull3_metric p {
-      font-size: 15px;
-      text-align: left;
-    }
-  
-    .bull3__chart {
-    }
-  
-    .bull3__piechart img {
-      width: 300px;
-      padding: 10px;
-    }
-  }
-  
+}
