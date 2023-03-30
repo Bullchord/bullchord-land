@@ -361,7 +361,7 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.045em;
-    text-align: left;
+    text-align: center;
     color: #fffdfdeb;
   }
 
@@ -405,6 +405,7 @@
     font-weight: 500;
     line-height: 25px;
     letter-spacing: 0.045em;
+    width: 100%;
     text-align: center;
     color: #ececec;
   }
@@ -416,7 +417,7 @@
   }
 
   .bull3_listen-container {
-    height: 880px;
+    height: 750px;
     background: #0a0a0a;
   }
   .bull3_col-two {
@@ -440,6 +441,6 @@
     letter-spacing: 0.045em;
     text-align: -webkit-center;
     color: #fdfdfdab;
-    padding: 10px;
+    padding: 0px;
   }
 }
