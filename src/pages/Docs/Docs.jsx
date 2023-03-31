@@ -7,7 +7,7 @@ import quarters3 from '../../assets/quarter3.svg'
 // import { DefaultPlayer as Video } from 'react-html5video/dist'
 import 'react-html5video/dist/styles.css'
 // import Colorful from '../../assets/colorful.mp4'
-import forroadmap from "../../assets/forroadmap.png"
+// import forroadmap from "../../assets/forroadmap.png"
 // import { artisteData } from './data'
 
 // import twitter from '../../assets/twitter1.svg'
@@ -19,7 +19,7 @@ const Docs = () => {
     <>
       <div className="hero-main">
         <div className="bull3_vid-banner-doc">
-          <img src={forroadmap} alt="" />
+          {/* <img src={forroadmap} alt="" /> */}
           <h1>Roadmap</h1>
         </div>
         <div className="quarters-a">
@@ -94,9 +94,7 @@ const Docs = () => {
         </div> */}
       </div>
       <div className="bull3_roadmap-down">
-        <p>
-        We are strengthening the music industry, we are making Bullchord the power source for everyone in the music industry.
-        </p>
+      <h1> Freedom For The People In Music</h1>
       </div>
 
       {/* <div className="social-handles">

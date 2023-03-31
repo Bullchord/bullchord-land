@@ -39,6 +39,7 @@ const ArtisteData = () => {
       })
   }
   return (
+    <>
     <div className="bul3_form-container">
       <div className="descrip">
         <p>
@@ -112,6 +113,10 @@ const ArtisteData = () => {
         <ToastContainer />
       </form>
     </div>
+    <div className="bull3_artist-down">
+      <h1> Freedom For The People In Music</h1>
+      </div>
+    </>
   )
 }
 export default ArtisteData

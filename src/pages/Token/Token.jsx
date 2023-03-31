@@ -18,7 +18,7 @@ const Chart = () => {
           {/* <img src={tokenbg} alt="" /> */}
         </div>
         <div className="token-intro">
-          <h1><span className='bullc'>$Bullchord</span> is the Native <br/> Token of Bullchord platform <br/>Bullchord platform </h1>
+          <h1><span className='bullc'>$Bullchord</span> is the Native <br/> Token of Bullchord platform </h1>
           <p>
             A blockchain/decentralized protocol requires financial mechanisms <br/>to
             enable incentives and rewards.{' '}
@@ -49,6 +49,9 @@ const Chart = () => {
             <img src={pieChart} alt="" />
           </div>
         </div>
+      </div>
+      <div className="bull3_token-down">
+      <h1> Freedom For The People In Music</h1>
       </div>
     </>
   )

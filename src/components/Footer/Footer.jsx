@@ -43,6 +43,13 @@ const Footer = () => {
                   WHITEPAPER
                 </a>
                 <Link className='lin' to={'./team'}>TEAM</Link>
+                <a className='lin'
+                  href="https://bullchords-organization.gitbook.io/litepaper/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GITHUB
+                </a>
               </div>
             </div>
             <div className="footer-menu-down">

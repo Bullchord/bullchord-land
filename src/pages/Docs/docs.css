@@ -116,12 +116,11 @@
   height: 300px;
 }
 
-.bull3_roadmap-down p {
+.bull3_roadmap-down h1 {
   /* width: 400px; */
   font-family: "Verdana";
-  font-size: 16px;
-  padding: 5rem;
-  width: 50%;
+  font-size: 50px;
+  padding: 6rem;
   color: #cecece;
 }
 
@@ -149,6 +148,22 @@
     -ms-user-select: none;
     user-select: none;
   }
+
+  .bull3_roadmap-down {
+    background-image: url("../../assets/roadmapdown.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .bull3_roadmap-down h1 {
+    /* width: 400px; */
+    font-family: "Verdana";
+    font-size: 30px;
+    padding: 6rem 2rem;
+    color: #cecece;
+  }
   
 }
 
@@ -162,13 +177,14 @@
     /* width: 50%; */
     color: #cecece;
   }
-  .bull3_roadmap-down {
+  /* .bull3_roadmap-down {
     height: 400px;
     background-position: right;
-  }
+  } */
   .bull3_roadmap-down p {
     padding: 6rem 0 0 1rem;
     width: 70%;
     color: #cecece;
   }
+
 }

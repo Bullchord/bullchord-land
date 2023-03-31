@@ -168,3 +168,43 @@ html {
   font-weight: 500;
   cursor: pointer;
 }
+
+.descrip p {
+  text-align: center;
+  font-size: 26px;
+}
+
+.bull3_artist-down {
+  margin-top: 5rem;
+  background-image: url("../src/assets/roadmapdown.png");
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: cover;
+  height: 300px;
+}
+
+.bull3_artist-down h1 {
+  font-family: "Verdana";
+  font-size: 60px;
+  text-align: left;
+  padding: 6rem;
+  color: #cecece;
+}
+
+@media screen and (max-width: 800px) {
+  .bull3_artist-down {
+    background-image: url("../src/assets/roadmapdown.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .bull3_artist-down h1 {
+    font-family: "Verdana";
+    font-size: 30px;
+    text-align: left;
+    padding: 6rem 2rem;
+    color: #cecece;
+  }
+}

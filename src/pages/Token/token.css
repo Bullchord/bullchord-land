@@ -178,6 +178,24 @@
   }
 }
 
+
+.bull3_token-down {
+  background-image: url("../../assets/roadmapdown.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.bull3_token-down h1 {
+  font-family: "Verdana";
+  /* font-size: 16px; */
+  font-size: 50px;
+  text-align: left;
+  padding: 6rem;
+  color: #cecece;
+}
+
 @media screen and (max-width: 768px) {
   .bull3__chart {
     height: 750px;
@@ -215,5 +233,22 @@
   .token-intro p {
     padding-top: 15rem;
     line-height: 20px;
+  }
+
+  .bull3_token-down {
+    background-image: url("../../assets/roadmapdown.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .bull3_token-down h1 {
+    font-family: "Verdana";
+    /* font-size: 16px; */
+    font-size: 30px;
+    text-align: left;
+    padding: 6rem 2rem;
+    color: #cecece;
   }
 }
