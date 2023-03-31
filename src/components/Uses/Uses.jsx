@@ -8,6 +8,8 @@ import './uses.css'
 
 const Uses = () => {
   return (
+    <>
+    <h1 className='bull3_chord-token'>BULLCHORD token serves three major functions in the protocol:</h1>
     <div className="bull3_uses-container">
       <h1 className="stake_h1">Staking</h1>
       <div className="bull3_uses-rollone">
@@ -53,6 +55,7 @@ const Uses = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

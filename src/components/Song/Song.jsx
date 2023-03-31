@@ -23,10 +23,10 @@ const Song = () => {
   return (
     <>
       <div className="bull3_song_container">
-        <h1 className="song_h1">
+        {/* <h1 className="song_h1">
           Upcoming artists will start off better on bullchord as they will have
           more chances for promotions and recognition.{' '}
-        </h1>
+        </h1> */}
         <div className="bull3_song-roll">
           <div className="bull3_song-colone">
             <div className="bull3_song-inner">
@@ -82,14 +82,14 @@ const Song = () => {
           <button className="bull3_genre-btn">Join Waitlist</button>
         </div>
       </div>
-      <div className="bull3_heter">
+      {/* <div className="bull3_heter">
         <h1>
           Bullchord's unique heterogeneous model allows Users to either be chain
           activators, artists, Asset owners or asset users. Every member Has a
           specific role to get them engaged to Contribute to the ecosystem
           dynamically.
         </h1>
-      </div>
+      </div> */}
     </>
   )
 }
