@@ -9,6 +9,16 @@ import pieChart from '../../assets/piechart.svg'
 
 import { distribution } from './data'
 
+import { EffectCoverflow, Pagination } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/effect-coverflow'
+import 'swiper/css/pagination'
+import twitter from '../../assets/twitter1.svg'
+import tiktok from '../../assets/tiktok1.svg'
+import insta from '../../assets/insta.svg'
 const Chart = () => {
   return (
     <>
@@ -18,10 +28,14 @@ const Chart = () => {
           {/* <img src={tokenbg} alt="" /> */}
         </div>
         <div className="token-intro">
-          <h1><span className='bullc'>$Bullchord</span> is the Native <br/> Token of Bullchord platform </h1>
+          <h1>
+            <span className="bullc">$Bullchord</span> is the Native <br /> Token
+            of Bullchord platform{' '}
+          </h1>
           <p>
-            A blockchain/decentralized protocol requires financial mechanisms <br/>to
-            enable incentives and rewards.{' '}
+            A blockchain/decentralized protocol requires financial mechanisms{' '}
+            <br />
+            to enable incentives and rewards.{' '}
             <a
               href="https://bullchords-organization.gitbook.io/litepaper/"
               target="_blank"
@@ -51,7 +65,7 @@ const Chart = () => {
         </div>
       </div>
       <div className="bull3_token-down">
-      <h1> Freedom For The People In Music</h1>
+        <h1> Freedom For The People In Music</h1>
       </div>
     </>
   )

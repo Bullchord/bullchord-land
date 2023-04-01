@@ -22,9 +22,10 @@ import 'swiper/css/pagination'
 const Carousel = ({ images }) => {
   return (
     <div className="carousel">
+      <h1>Artistes</h1>
       <Swiper
         effect={'coverflow'}
-        grabCursor={true}
+        // grabCursor={true}
         centeredSlides={true}
         slidesPerView={'auto'}
         coverflowEffect={{
@@ -41,20 +42,29 @@ const Carousel = ({ images }) => {
         {artisteData.map((artiste) => {
           return (
             <SwiperSlide>
-              <main className="img">
-                <div className="card">
-                  <img src={artiste.img} alt="" className="card-img" />
-                  <div className="card-content">
-                    <h2>{artiste.artisteName}</h2>
-                    <p>{artiste.intro}</p>
-                    <div className="social-handles">
+              <div className="swiper-img">
+                <img src={artiste.img} />
+                <div className="card-content">
+                  <div className="card-intro">
+                    <h2>
+                      {artiste.artisteName} <img src={artiste.country} alt="" />
+                    </h2>
+                  </div>
+                  <p>{artiste.intro}</p>
+
+                  <div className="socials-hand">
+                    <a href={artiste.tiktokLink}>
                       <img src={tiktok} alt="" />
+                    </a>
+                    <a href={artiste.twitterLink}>
                       <img src={twitter} alt="" />
+                    </a>
+                    <a href={artiste.instaLink}>
                       <img src={insta} alt="" />
-                    </div>
+                    </a>
                   </div>
                 </div>
-              </main>
+              </div>
             </SwiperSlide>
           )
         })}
