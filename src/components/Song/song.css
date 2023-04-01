@@ -67,6 +67,10 @@
   padding: 1rem;
 }
 
+.bull3_genre-btn a {
+  text-decoration: none;
+}
+
 .listner h2,
 .artist h2 {
   margin-top: 40px;

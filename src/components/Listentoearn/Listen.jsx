@@ -36,12 +36,12 @@ const Listen = () => {
           </p>
 
           <a
-            href="https://twitter.com/bullchord"
+            href="https://discord.gg/yKZJWAr9wz"
             target="_blank"
             rel="noreferrer"
             className="cta"
-          >
-            <span>Join Waitlist</span>
+          aria-disabled>
+            <span>More info</span>
             <svg width="13px" height="10px" viewBox="0 0 13 10">
               <path d="M1,5 L11,5"></path>
               <polyline points="8 1 12 5 8 9"></polyline>

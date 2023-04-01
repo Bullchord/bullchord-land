@@ -79,7 +79,7 @@ const Song = () => {
             Earn tokens when music is streamed and take part in the consensus
             reward voting system.
           </p>
-          <button className="bull3_genre-btn">Join Waitlist</button>
+         <button className="bull3_genre-btn"> <a href="/artisteform">Join us</a></button>
         </div>
       </div>
       {/* <div className="bull3_heter">

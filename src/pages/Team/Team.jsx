@@ -55,6 +55,8 @@ const teamData = [
     founderName: 'Zulay Pulido ',
     pos: 'Designer & Illustrator',
     img: founder,
+    tweet: 'https://twitter.com/zupulido',
+
   },
   { id: 5, founderName: 'Caner', pos: 'Community Manager', img: founder },
   {
