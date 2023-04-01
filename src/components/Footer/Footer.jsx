@@ -29,20 +29,27 @@ const Footer = () => {
             <div className="footer-menu-top">
               <div className="right-menu">
                 <h3>MENU</h3>
-                <Link to="/tokenomics">TOKEN</Link>
-                <Link to={'/docs'}>ROADMAP</Link>
-                <Link to={'./artisteform'}>ARTISTE</Link>
+                <Link className='lin' to="/tokenomics">TOKEN</Link>
+                <Link className='lin' to={'/docs'}>ROADMAP</Link>
+                <Link className='lin' to={'./artisteform'}>ARTISTE</Link>
               </div>
               <div className="left-menu">
                 <h3>COMPANY</h3>
-                <a
+                <a className='lin'
                   href="https://bullchords-organization.gitbook.io/litepaper/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   WHITEPAPER
                 </a>
-                <Link to={'./team'}>TEAM</Link>
+                <Link className='lin' to={'./team'}>TEAM</Link>
+                <a className='lin'
+                  href="https://bullchords-organization.gitbook.io/litepaper/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GITHUB
+                </a>
               </div>
             </div>
             <div className="footer-menu-down">

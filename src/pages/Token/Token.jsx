@@ -1,11 +1,11 @@
 import React from 'react'
-import { DefaultPlayer as Video } from 'react-html5video/dist'
+// import { DefaultPlayer as Video } from 'react-html5video/dist'
 import 'react-html5video/dist/styles.css'
-import Colorful from '../../assets/colorful.mp4'
+// import Colorful from '../../assets/colorful.mp4'
 import './token.css'
 
 import pieChart from '../../assets/piechart.svg'
-import tokenbg from '../../assets/tokenbg.png'
+// import tokenbg from '../../assets/tokenbg.png'
 
 import { distribution } from './data'
 
@@ -18,9 +18,9 @@ const Chart = () => {
           {/* <img src={tokenbg} alt="" /> */}
         </div>
         <div className="token-intro">
-          <h4>Introducing $Bullchord, The Bullchord platform Native Token.</h4>
+          <h1><span className='bullc'>$Bullchord</span> is the Native <br/> Token of Bullchord platform </h1>
           <p>
-            A blockchain/decentralized protocol requires financial mechanisms to
+            A blockchain/decentralized protocol requires financial mechanisms <br/>to
             enable incentives and rewards.{' '}
             <a
               href="https://bullchords-organization.gitbook.io/litepaper/"
@@ -49,6 +49,9 @@ const Chart = () => {
             <img src={pieChart} alt="" />
           </div>
         </div>
+      </div>
+      <div className="bull3_token-down">
+      <h1> Freedom For The People In Music</h1>
       </div>
     </>
   )

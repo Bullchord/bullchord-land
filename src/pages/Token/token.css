@@ -1,9 +1,9 @@
-.bull3_token_head {
+/* .bull3_token_head {
   height: 600px;
-}
+} */
 .bull3_vid-banner{
   background: #6d00bf;
-  height: 350px;
+  height: 500px;
   /* height: 00px; */
   /* margin-top: -4rem; */
   display: flex;
@@ -38,24 +38,42 @@
   color: #222222;
 }
 .bull3__chart {
-  position: relative;
-  margin-top: 700px;
+  /* position: relative; */
+  /* margin-top: 700px; */
   width: 90%;
-  height: 300px;
+  /* height: 300px; */
   margin: 0 auto;
 
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  /* padding-top: 20rem; */
   background: #fff;
   height: 700px;
+}
+
+.token-intro {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Machina";
+  line-height: 40px;
+}
+
+.token-intro .bullc {
+  color: #6d00bf;
+}
+
+.token-intro p {
+  padding-top: 20rem;
+  font-family: Verdana;
 }
 
 .bull3_vid-banner h1 {
   width: 100%;
   font-size: 200px;
   text-align: center;
+  padding-top: 10rem;
   color: #000000;
   /* line-height: 60vh; */
 }
@@ -103,17 +121,17 @@
 @media screen and (max-width: 800px) {
   .bull3_vid-banner {
     background: #6d00bf;
-    height: 270px;
+    height: 400px;
    
 }
   .token-intro {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 100px;
-    height: 300px;
+    height: 500px;
     background-image: url("../../assets/bullchordb\ \(1\).png");
     background-position: center;
-    background-size: 200px;
+    background-size: 150px;
     background-repeat: no-repeat;
   }
   .token-intro {
@@ -161,6 +179,24 @@
   }
 }
 
+
+.bull3_token-down {
+  background-image: url("../../assets/roadmapdown.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.bull3_token-down h1 {
+  font-family: "Verdana";
+  /* font-size: 16px; */
+  font-size: 50px;
+  text-align: left;
+  padding: 6rem;
+  color: #cecece;
+}
+
 @media screen and (max-width: 768px) {
   .bull3__chart {
     height: 750px;
@@ -188,5 +224,32 @@
   .bull3__piechart img {
     width: 300px;
     padding: 10px;
+  }
+
+  .token-intro h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .token-intro p {
+    padding-top: 15rem;
+    line-height: 20px;
+  }
+
+  .bull3_token-down {
+    background-image: url("../../assets/roadmapdown.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .bull3_token-down h1 {
+    font-family: "Verdana";
+    /* font-size: 16px; */
+    font-size: 30px;
+    text-align: left;
+    padding: 6rem 2rem;
+    color: #cecece;
   }
 }

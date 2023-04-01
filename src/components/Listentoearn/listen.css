@@ -1,8 +1,9 @@
 .bull3_listen-container {
-  height: 780px;
+  height: 750px;
   border-radius: 0px;
   background: #000000;
   padding: 3rem 5rem;
+  overflow-x: hidden !important;
 }
 .listenbg img {
   width: 1200px;
@@ -30,18 +31,22 @@
 .bull3_col-two {
   text-align: start;
   margin-left: 250px;
-  /* width: 90%; */
   margin-top: 80px;
+
+}
+
+.bull3_col-two h1 {
+  font-family: "Machina";
 }
 
 .bull3_col-two p {
   font-family: "Verdana", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  line-height: 30px;
+  /* line-height: 30px; */
   letter-spacing: 0.045em;
   text-align: left;
-  padding: 10px;
+  /* padding: 10px; */
   width: 80%;
   /* margin-top:100px ; */
   margin-bottom: 50px;
@@ -54,7 +59,6 @@
 
 .bull3_col-one .speaker {
   width: 409px;
-  /* height: 391px; */
   left: 31px;
   top: 221px;
   margin-top: 2rem;
@@ -251,8 +255,8 @@
     opacity: 1;
   }
   100% {
-    -webkit-transform: translateX(1000px) rotate(540deg);
-    transform: translateX(1000px) rotate(540deg);
+    -webkit-transform: translateX(50px) rotate(530deg);
+    transform: translateX(50px) rotate(530deg);
     opacity: 0;
   }
 }
@@ -263,8 +267,8 @@
     opacity: 1;
   }
   100% {
-    -webkit-transform: translateX(1000px) rotate(540deg);
-    transform: translateX(1000px) rotate(540deg);
+    -webkit-transform: translateX(50px) rotate(530deg);
+    transform: translateX(50px) rotate(530deg);
     opacity: 0;
   }
 }
@@ -274,18 +278,14 @@
     display: flex;
   }
 
-  .bull3_listen-container {
+  /* .bull3_listen-container {
     border-radius: 0px;
     padding: 1rem 2rem;
-  }
-
-  .bull3_col-one .speaker {
-    width: 200px;
-  }
+  } */
 
   .bull3_listen-container h1 {
     text-align: left;
-    font-family: "Neue Machina";
+    font-family: "Machina";
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
@@ -296,11 +296,12 @@
 
   .bull3_col-two p {
     font-family: "Poppins";
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0.045em;
     text-align: left;
+    margin-top: -2rem;
     color: #ffffffe4;
   }
 
@@ -308,14 +309,34 @@
     height: 500px;
     border-radius: 0px;
     background: #101010;
-    padding: 3rem 5rem;
+    padding: 2rem 1rem;
+  }
+
+  .listenbg img {
+    width: 500px;
+  }
+
+  .bull3_col-two {
+    text-align: start;
+    /* margin-left: 10px; */
+    margin-top: 40px;
+  
+  }
+
+  .bull3_col-one .speaker {
+    width: 200px;
+    left: 0px;
+    top: 50px;
+    margin-top: 2rem;
+    margin-left: 5px;
   }
 }
 
-@media screen and (max-width: 790px) {
-  .bull3_listen-container {
-    height: 881px;
+@media screen and (max-width: 820px){
+  
 }
+
+@media screen and (max-width: 790px) {
   .listenbg img{
     width: 300px;
   }
@@ -326,11 +347,13 @@
   .bull3_listen-container {
     border-radius: 0px;
     background: #100f0f;
+    height: 500px;
+
   }
 
   .bull3_col-one .speaker {
     width: 200px;
-    margin-left: 60px;
+    margin-left: 20px;
   }
 
   .bull3_listen-container h1 {
@@ -341,12 +364,12 @@
     text-align: left;
   }
   .bull3_col-two {
-    width: 100%;
-    display: flex;
-    align-items: center;
+    /* width: 100%; */
+    /* display: flex; */
+    /* align-items: center; */
     flex-direction: column;
-    margin-top: 0;
-    margin-left: 0;
+    margin-top: 3rem;
+    margin-left: 2rem;
   }
 
   .bull3_col-two p {
@@ -357,6 +380,11 @@
     letter-spacing: 0.045em;
     text-align: left;
     color: #fffdfdeb;
+  }
+
+  .bull3_col-two h1 {
+    font-family: "Machina";
+    text-align: left;
   }
 
   .bull3_listen-container {
@@ -399,7 +427,8 @@
     font-weight: 500;
     line-height: 25px;
     letter-spacing: 0.045em;
-    text-align: center;
+    /* width: 100%; */
+    text-align: left;
     color: #ececec;
   }
 }
@@ -410,8 +439,9 @@
   }
 
   .bull3_listen-container {
-    height: 880px;
+    height: 750px;
     background: #0a0a0a;
+    padding: 0.5rem;
   }
   .bull3_col-two {
     width: 100%;
@@ -428,12 +458,15 @@
 
   .bull3_col-two p {
     font-family: "Verdana", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 25px;
     letter-spacing: 0.045em;
-    text-align: -webkit-center;
+    text-align: left;
     color: #fdfdfdab;
-    padding: 10px;
+  }
+
+  .bull3_col-two h1 {
+    text-align: left;
   }
 }

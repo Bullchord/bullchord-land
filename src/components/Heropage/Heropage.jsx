@@ -56,9 +56,9 @@ const Header = () => {
           <p className='bull_3_p'>Lifetime royalty for artists on every trade.</p>
 
           <div className="bull3__header-content_btn">
-            <button className="btn-2" type="button">
+            <button className="btn-2" type="button" disabled>
               <a href="http://localhost:3000/" target="_blank" rel="noreferrer">
-                Presale
+                Private Sale
               </a>
             </button>
             <button className="btn-2" type="button">

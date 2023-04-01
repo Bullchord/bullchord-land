@@ -8,6 +8,11 @@
   /* overflow-y: hidden; */
 }
 
+.bull3_chord-token {
+  padding: 5rem;
+  text-align: center;
+}
+
 .stake_h1 {
   text-align: start;
   color: #141414;
@@ -198,5 +203,11 @@
   .bull3_uses-rollthree .img_inapp img {
     /* width: 200px; */
     width: 120px;
+  }
+
+  .bull3_chord-token {
+    font-size: 25px;
+    padding: 1rem 2rem;
+    text-align: left;
   }
 }

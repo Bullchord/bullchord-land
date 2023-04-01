@@ -1,5 +1,5 @@
 // import { display } from '@mui/system'
-import React, { useEffect, useState } from 'react'
+import React, {useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logowhite.png'
@@ -31,15 +31,7 @@ const Menu = () => (
 )
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false)
-  // useEffect(() => {
-  //   first
-  
-  //   return () => {
-  //     second
-  //   }
-  // }, [third])
-  
+  const [toggleMenu, setToggleMenu] = useState(false)  
   return (
     <div className="bull3__navbar">
       <div className="bull3__navbar-links_logo">
@@ -81,8 +73,8 @@ const Navbar = () => {
         )}
         {toggleMenu && (
           <div className="bull3__navbar-menu_container scale-up-hor-right">
-            <div className="bull3__navbar-menu_container-links">
-              <Menu/> 
+            <div className="bull3__navbar-menu_container-links" onClick={() => setToggleMenu(false)}>
+            <Menu/> 
               <div className="bull3__navbar-menu_container-links-sign">
                 {/* <p>Sign In</p> */}
                 <button className="btn btn-1" type="button">
@@ -91,7 +83,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Join Discord
+                    Join Discord 
                   </a>
                 </button>
               </div>

@@ -3,7 +3,7 @@
 }
 .bull3_vid-banner-team {
   background: #6d00bf;
-  height: 400px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,18 +40,17 @@
   user-select: none;
 }
 
+.found-name {
+  padding-bottom: 20px;
+}
+
 .bull3_team {
   font-size: 200px;
   text-align: center;
   color: #000000;
 }
 
-.bull3_downbg h1 {
-  font-size: 50px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-}
+
 .team-member {
   padding: 15px;
   height: 250px;
@@ -89,11 +88,27 @@
 
 .bull3_vid-banner-team h1 {
   width: 100%;
-  font-size: 100px;
+  font-size: 200px;
   text-align: center;
   color: #000000;
   line-height: 20vh;
   /* mix-blend-mode: screen; */
+}
+
+.bull3_downbg {
+  background-image: url("../../assets/roadmapdown.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.bull3_downbg h1 {
+  font-family: "Verdana";
+  font-size: 50px;
+  text-align: left;
+  padding: 6rem;
+  color: #cecece;
 }
 
 @media screen and (max-width: 850px) {
@@ -107,6 +122,17 @@
     background-size: 200px;
     background-repeat: no-repeat;
   }
+
+
+.bull3_vid-banner-team {
+  background: #6d00bf;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
   .team-intro p {
     font-size: 16px;
   }
@@ -124,19 +150,27 @@
     color: #000000;
   }
 
-  .bull3_downbg h1 {
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-    font-size: 60px;
-    text-align: center;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
 
   .bull3_vid-banner-team h1 {
     font-size: 100px;
   }
+
+  .bull3_downbg {
+    background-image: url("../../assets/roadmapdown.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .bull3_downbg h1 {
+    font-family: "Verdana";
+    font-size: 30px;
+    text-align: left;
+    padding: 6rem 2rem;
+    color: #cecece;
+  }
+  
 }
 
 @media screen and (max-width: 450px) {

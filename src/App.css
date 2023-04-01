@@ -1,6 +1,11 @@
-/* .App {
-  text-align: center;
-} */
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden !important; */
+
+}
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
 
 @font-face {
@@ -17,6 +22,8 @@
     url("./assets/fonts/NeueMachina-Regular.ttf") format("truetype");
 }
 
+
+
 .input {
   display: flex;
   width: 100%;
@@ -30,15 +37,17 @@ input {
   outline: none;
   color: #222222;
   font-size: 18px;
-  /* padding: 5px; */
 }
+
 input::placeholder {
   font-size: 16px;
   color: #2222225d;
 }
+
 input:hover {
   border: 1px solid rgba(141, 65, 203, 0.5);
 }
+
 .listening-button {
   width: 150px;
   height: 60px;
@@ -54,11 +63,12 @@ input:hover {
   font-weight: 500;
   cursor: pointer;
 }
-body,
+
+/* body,
 html {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
+  overflow-x: hidden !important;
+} */
+
 @media screen and (max-width: 600px) {
   .listening-button,
   .submit_button {
@@ -90,8 +100,8 @@ html {
   }
   .form {
     width: 90%;
-    /* margin: 0 auto; */
   }
+  
   .form input {
     width: 100%;
     border-radius: 0;
@@ -157,4 +167,44 @@ html {
   letter-spacing: 0.025em;
   font-weight: 500;
   cursor: pointer;
+}
+
+.descrip p {
+  text-align: center;
+  font-size: 26px;
+}
+
+.bull3_artist-down {
+  margin-top: 5rem;
+  background-image: url("../src/assets/roadmapdown.png");
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: cover;
+  height: 300px;
+}
+
+.bull3_artist-down h1 {
+  font-family: "Verdana";
+  font-size: 60px;
+  text-align: left;
+  padding: 6rem;
+  color: #cecece;
+}
+
+@media screen and (max-width: 800px) {
+  .bull3_artist-down {
+    background-image: url("../src/assets/roadmapdown.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .bull3_artist-down h1 {
+    font-family: "Verdana";
+    font-size: 30px;
+    text-align: left;
+    padding: 6rem 2rem;
+    color: #cecece;
+  }
 }

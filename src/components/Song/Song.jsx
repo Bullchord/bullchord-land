@@ -3,7 +3,7 @@ import Mj from '../../assets/mj.png'
 import Headset from '../../assets/headphones 1.svg'
 import mj from '../../assets/mj.wav'
 import Cd from '../../assets/cd.svg'
-import Binance from '../../assets/image 7.svg'
+// import Binance from '../../assets/image 7.svg'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow'
 import PauseIcon from '@mui/icons-material/Pause'
 import './song.css'
@@ -23,10 +23,10 @@ const Song = () => {
   return (
     <>
       <div className="bull3_song_container">
-        <h1 className="song_h1">
+        {/* <h1 className="song_h1">
           Upcoming artists will start off better on bullchord as they will have
           more chances for promotions and recognition.{' '}
-        </h1>
+        </h1> */}
         <div className="bull3_song-roll">
           <div className="bull3_song-colone">
             <div className="bull3_song-inner">
@@ -79,17 +79,17 @@ const Song = () => {
             Earn tokens when music is streamed and take part in the consensus
             reward voting system.
           </p>
-          <button className="bull3_genre-btn">Join Waitlist</button>
+         <button className="bull3_genre-btn"> <a href="/artisteform">Join us</a></button>
         </div>
       </div>
-      <div className="bull3_heter">
+      {/* <div className="bull3_heter">
         <h1>
           Bullchord's unique heterogeneous model allows Users to either be chain
           activators, artists, Asset owners or asset users. Every member Has a
           specific role to get them engaged to Contribute to the ecosystem
           dynamically.
         </h1>
-      </div>
+      </div> */}
     </>
   )
 }
