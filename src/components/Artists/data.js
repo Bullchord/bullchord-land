@@ -9,7 +9,7 @@ import uk from "../../assets/uk.png";
 import nja from "../../assets/nigeria.png";
 import canada from "../../assets/canada.png";
 import Sivante from "../../assets/Sivante.jpeg";
-import uti from "../../assets/uti.JPG";
+import uti from "../../assets/uti.png";
 
 export const artisteData = [
   {
