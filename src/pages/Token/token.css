@@ -176,6 +176,7 @@
     background: #fff;
     height: 1000px;
   }
+ 
 }
 
 .bull3_token-down {
@@ -270,10 +271,10 @@
   width: 100%;
   height: 500px;
 } */
-.card-content{
+.card-content {
   background: red;
 }
-.card-intro img{
+.card-intro img {
   width: 20px !important;
   height: 20px;
   margin-left: 10px;
@@ -328,7 +329,7 @@
   transform: translateY(-10px);
 }
 
-.swiper-img:hover .socials-hand{
+.swiper-img:hover .socials-hand {
   opacity: 1;
   transition: opacity 0.5s 0.1s ease-in;
 }
