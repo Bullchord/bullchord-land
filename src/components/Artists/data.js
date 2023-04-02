@@ -7,6 +7,9 @@ import stickyup from "../../assets/stickyup.png";
 import dami from "../../assets/dami.JPEG";
 import uk from "../../assets/uk.png";
 import nja from "../../assets/nigeria.png";
+import canada from "../../assets/canada.png";
+import Sivante from "../../assets/Sivante.jpeg";
+import uti from "../../assets/uti.JPG";
 
 export const artisteData = [
   {
@@ -21,7 +24,7 @@ export const artisteData = [
   },
   {
     id: 2,
-    artisteName: "Dami",
+    artisteName: "S O B",
     intro: "Dami is an indegenous rapper currently based in Nigeria ",
     img: dami,
     twitterLink: "https://twitter.com/i_amSOB",
@@ -31,18 +34,24 @@ export const artisteData = [
   },
   {
     id: 3,
-    artisteName: "Michael Jackson",
-    stream: "2m streams",
+    artisteName: "Rok Sivante",
     intro:
-      " Lorem, ipsum dolor sit amet consectetur  explicabolaboriosam rem adipisci voluptates cumque, veritatis atque",
-    img: lady,
+      "Rok Sivante is a sound producer currently based in currently based in Alberta ",
+    img: Sivante,
+    twitterLink: "https://twitter.com/bullchord",
+    tiktokLink: "https://www.tiktok.com/@utigreg?_t=8bA7lJJdRmX&_r=1",
+    instaLink: "https://www.instagram.com/rok.sivante/",
+    country: canada,
   },
   {
     id: 4,
-    artisteName: "Dami",
-    stream: "3m streams",
-    intro:
-      " Lorem, ipsum dolor sit amet consectetur  explicabolaboriosam rem adipisci voluptates cumque, veritatis atque",
-    img: cat,
+    artisteName: "Uti Greg",
+    intro: "Uti Greg is a rapper currently based in Nigeria ",
+    img: uti,
+    twitterLink: "https://twitter.com/bullchord",
+    tiktokLink: "https://www.tiktok.com/@utigreg?_t=8bA7lJJdRmX&_r=1",
+    instaLink: "https://instagram.com/uti.greg?igshid=YmMyMTA2M2Y=",
+    country: nja,
   },
+ 
 ];
