@@ -3,21 +3,6 @@
   /* padding: 3rem 2rem; */
 }
 
-/* .song_h1,
-.bull3_heter h1 {
-  text-align: center;
-  color: #141414;
-  font-family: "Poppins", sans-serif;
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 5rem;
-} */
-/* 
-.bull3_heter h1 {
-  padding-top: 5rem;
-} */
-
 .bull3_song-roll {
   display: flex;
   justify-content: center;
@@ -263,15 +248,8 @@
     border-radius: 0px;
   }
 
-  /* .bull3_song-coltwo {
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-  } */
-
   .bull3_song-coltwo .music-img {
-    width: 480px;
+    width: 759px;
     height: 420px;
   }
 
@@ -293,6 +271,10 @@
     width: 100%;
     height: 300px;
   }
+  .music_details,
+  .music_detail {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -304,10 +286,10 @@
   .bull3_genre h2 {
     padding-top: 30px;
   }
-  /* .song_h1,
-  .bull3_heter h1 {
+  .bull3_song-coltwo .music-img {
     width: 100%;
-  } */
+    /* height: 320px; */
+  }
 }
 
 @media screen and (max-width: 500px) {
