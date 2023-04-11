@@ -9,12 +9,11 @@ export const distribution = [
   { supply: "54% for Community incentive", img: eco },
   {
     supply:
-      "10% for Team 10% (locked for 2 years, and harvestable 52 weeks and weekly after 2 years)",
+      "10% for Team (locked for 2 years, and harvestable in 52 weeks after the initial 2 years)",
     img: team,
   },
   {
-    supply:
-      "15% for Treasury 15% (vested linearly 2 years, harvestable weekly)",
+    supply: "15% for Treasury (vested linearly 2 years, harvestable weekly)",
     img: treasury,
   },
   { supply: "11% for Marketing", img: marketing },

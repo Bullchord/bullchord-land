@@ -11,7 +11,9 @@ const Download = () => {
         <div className="bull3_download-whitebg">
           <div className="bull3_download-inner-roll">
             <div className="bull3_download-inner">
-              <h1>Download Bullchord App Now </h1>
+              <h1>
+                BullChord Mobile Player <small>coming soon</small>
+              </h1>
               <p>
                 Bullchord mobile app is the streaming platform designed to serve
                 everyone irrespective of the web but promote the freedom,

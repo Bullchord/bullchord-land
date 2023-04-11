@@ -54,6 +54,7 @@
 
 .bull3_genre-btn a {
   text-decoration: none;
+  color: #fff;
 }
 
 .listner h2,
@@ -185,11 +186,10 @@
   transition: 0.5s;
   font-weight: 500;
   background-size: 200% auto;
-  color: #ffffff;
   outline: none;
   border-radius: 6px;
   border: 1px solid #6d00bf;
-  margin: 1rem;
+  margin: 4rem 1rem;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
