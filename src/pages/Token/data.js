@@ -6,19 +6,19 @@ import team from "../../assets/team.svg";
 import pubsale from "../../assets/pubsale.svg";
 import seed from "../../assets/seed.svg";
 export const distribution = [
-  { supply: "54% for Community incentive", img: eco },
+  { supply: "51% for Community incentive", img: eco },
   {
     supply:
       "10% for Team (locked for 2 years, and harvestable in 52 weeks after the initial 2 years)",
     img: team,
   },
   {
-    supply: "15% for Treasury (vested linearly 2 years, harvestable weekly)",
+    supply: "14% for Treasury (vested linearly 2 years, harvestable weekly)",
     img: treasury,
   },
-  { supply: "11% for Marketing", img: marketing },
+  { supply: "13% for Marketing", img: marketing },
   {
-    supply: "8% for Public Sale (70% liquidity, 30% development)",
+    supply: "10% for Public Sale (70% liquidity, 30% development)",
     img: pubsale,
   },
   { supply: "2% for Seed", img: seed },
