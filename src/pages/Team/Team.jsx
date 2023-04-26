@@ -15,7 +15,6 @@ const teamData = [
     founderName: 'Michael B',
     pos: 'Web/Blockchain dev',
     img: founder,
-    tweet: 'https://twitter.com/simplymikes',
     linked: 'https://www.linkedin.com/in/michael-b-319a13138/',
   },
   {
@@ -23,7 +22,6 @@ const teamData = [
     founderName: 'Abusomwan Santos',
     pos: 'Web/Blockchain dev',
     img: founder,
-    tweet: 'https://twitter.com/kingjul1en',
     linked: 'https://www.linkedin.com/in/abusomwan-santos/',
   },
   /* call to action button */
@@ -32,7 +30,6 @@ const teamData = [
     founderName: 'Francis Oche ',
     pos: 'Social Marketer',
     img: founder,
-    tweet: 'https://twitter.com/NGPreacher',
     linked: 'https://www.linkedin.com/in/francis-samuel-oche-315926269',
   },
   {
@@ -47,7 +44,6 @@ const teamData = [
     founderName: 'Seth Daniel',
     pos: 'Web3 Marketer',
     img: founder,
-    tweet: 'https://twitter.com/Sethdannyyak',
     linked: 'https://www.linkedin.com/in/seth-dani-yakubu-345705251',
   },
   {
@@ -55,7 +51,6 @@ const teamData = [
     founderName: 'Zulay Pulido ',
     pos: 'Designer & Illustrator',
     img: founder,
-    tweet: 'https://twitter.com/zupulido',
 
   },
   { id: 5, founderName: 'Caner', pos: 'Community Manager', img: founder },
@@ -64,7 +59,6 @@ const teamData = [
     founderName: 'Colin Power',
     pos: 'Crypto Economist & Advisor',
     img: founder,
-    tweet: 'https://twitter.com/collin_code',
     linked: 'https://twitter.com/collin_code',
   },
 
@@ -73,7 +67,6 @@ const teamData = [
     founderName: 'Alvin O',
     pos: 'Advisor',
     img: founder,
-    tweet: '',
     linked: '',
   },
 ]
@@ -100,9 +93,7 @@ const Team = () => {
                 <h3 className='found-name'>{team.founderName}</h3>
                 <small>{team.pos}</small>
                 <div className="team-socials">
-                  <a href={team.tweet} target="_blank" rel="noreferrer">
-                    <img src={twitter} alt="twitter" />
-                  </a>
+                 
                   <a href={team.linked} target="_blank" rel="noreferrer">
                     <img src={linkedin} alt="linkedin" />
                   </a>
