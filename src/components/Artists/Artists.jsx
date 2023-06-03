@@ -43,7 +43,7 @@ const Carousel = ({ images }) => {
           return (
             <SwiperSlide>
               <div className="swiper-img">
-                <img src={artiste.img} />
+                <img src={artiste.img} alt="img" />
                 <div className="card-content">
                   <div className="card-intro">
                     <h2>

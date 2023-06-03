@@ -1,8 +1,8 @@
 // import artiste1 from "../../assets/artiste1.svg";
-import banjo from "../../assets/banjo.png";
-import musician from "../../assets/musician.jpg";
-import lady from "../../assets/lady.jpg";
-import cat from "../../assets/cat.png";
+// import banjo from "../../assets/banjo.png";
+// import musician from "../../assets/musician.jpg";
+// import lady from "../../assets/lady.jpg";
+// import cat from "../../assets/cat.png";
 import stickyup from "../../assets/stickyup.png";
 import dami from "../../assets/dami.JPEG";
 import uk from "../../assets/uk.png";

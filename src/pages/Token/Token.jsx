@@ -9,16 +9,16 @@ import pieChart from '../../assets/piechart.svg'
 
 import { distribution } from './data'
 
-import { EffectCoverflow, Pagination } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react'
+// import { EffectCoverflow, Pagination } from 'swiper'
+// import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/pagination'
-import twitter from '../../assets/twitter1.svg'
-import tiktok from '../../assets/tiktok1.svg'
-import insta from '../../assets/insta.svg'
+// import twitter from '../../assets/twitter1.svg'
+// import tiktok from '../../assets/tiktok1.svg'
+// import insta from '../../assets/insta.svg'
 const Chart = () => {
   return (
     <>

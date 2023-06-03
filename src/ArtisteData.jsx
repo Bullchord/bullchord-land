@@ -1,7 +1,8 @@
-import axios from 'axios'
+// import axios from 'axios'
 import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import ArtistDataService from "../src/firebase.service";
 // import './artists.css'
 const ArtisteData = () => {
   const [name, setName] = useState('')
@@ -11,40 +12,44 @@ const ArtisteData = () => {
   const [instagram, setInstagram] = useState('')
   const [tiktok, setTiktok] = useState('')
   const notify = () => toast('Form submitted')
-  const handleSubmit = (e) => {
+  // const [message, setMessage] = useState({error: false, msg: ''})
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    //  console.log(name,email,phone,twitter,instagram,tiktok)
-    const data = {
-      Name: name,
-      Email: email,
-      Phone: phone,
-      Twitter: twitter,
-      Instagram: instagram,
-      Tiktok: tiktok,
+    // setMessage('')
+    if (name === "" || email === "" || phone === "" || twitter === "" ||instagram === "" || tiktok === ""){
+      // setMessage({error: true, msg: "Add all fields"});
+      return;
     }
-    axios
-      .post(
-        'https://sheet.best/api/sheets/359ed901-a572-445a-9d56-cc9027a4a04f',
-        data,
-      )
-      .then((response) => {
-        console.log(response)
-        // To clear field
-        setName('')
-        setEmail('')
-        setPhone('')
-        setTwitter('')
-        setInstagram('')
-        setTiktok('')
-      })
-  }
+    const newArtist = {
+      name: name,
+      email: email,
+      phone: phone,
+      twitter: twitter,
+      instagram: instagram,
+      tiktok: tiktok
+    }
+
+    try {
+      await ArtistDataService.addArtists(newArtist);
+      // setMessage({error: false, msg: "new artist added"})
+    } catch (err) {
+      // setMessage({error: true, msg: err.message})
+    }
+
+    setName("");
+    setEmail("")
+    setPhone("");
+    setTwitter("");
+    setInstagram("");
+    setTiktok("")
+  };
   return (
     <>
     <div className="bul3_form-container">
       <div className="descrip">
         <p>
-          Be the first artistes to join <span>Bullchord</span>, mint and sell
-          your songs as NFT.
+          Be The First Artistes To Join <span>Bullchord</span>, <br/> Mint and Sell
+           Your Songs As <br/> <span className='underlined underline-clip'>NFT</span>
         </p>
       </div>
       <form className="form" action="" onSubmit={handleSubmit}>

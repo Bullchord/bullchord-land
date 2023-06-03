@@ -1,7 +1,7 @@
 import React from 'react'
 // import Header from '../Header'
 import founder from '../../assets/mich.png'
-import twitter from '../../assets/twitter.svg'
+// import twitter from '../../assets/twitter.svg'
 import linkedin from '../../assets/linkedin.svg'
 // import Videobg from '../Videobg/Videobg';
 // import { DefaultPlayer as Video } from 'react-html5video/dist'

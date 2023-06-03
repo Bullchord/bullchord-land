@@ -59,4 +59,4 @@ const Uses = () => {
   )
 }
 
-export default Uses
+export default Uses;

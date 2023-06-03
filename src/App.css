@@ -22,12 +22,36 @@
     url("./assets/fonts/NeueMachina-Regular.ttf") format("truetype");
 }
 
+.bul3_form-container img {
+  width: 100%;
 
+}
 
 .input {
   display: flex;
   width: 100%;
 }
+
+.underlined {
+  /*   background: red; */
+    position: relative;
+  }
+
+  .underline-clip:after {
+    content: '';
+    position: absolute;
+    top: 95%;
+    width: 150%;
+    aspect-ratio: 3 / 1;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    border: 6px solid rgb(162, 25, 230);
+    /* Use a clip-path to hide and show the bits you want */
+    clip-path: polygon(0 0, 50% 50%, 100% 0);
+  }
+
+
 
 input {
   background: transparent;
@@ -37,6 +61,7 @@ input {
   outline: none;
   color: #222222;
   font-size: 18px;
+
 }
 
 input::placeholder {
@@ -100,6 +125,7 @@ html {
   }
   .form {
     width: 90%;
+    
   }
   
   .form input {
@@ -129,6 +155,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 .form input {
   width: 60%;
@@ -171,7 +198,10 @@ html {
 
 .descrip p {
   text-align: center;
-  font-size: 26px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50px;
+  
 }
 
 .bull3_artist-down {
